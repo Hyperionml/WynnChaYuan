@@ -3,8 +3,8 @@
   "domain": "gear-armour",
   "lang": "ja_jp",
   "generated": "2026-08-19T12:14:19+00:00",
-  "count": 2483,
-  "translated": 2408,
+  "count": 2484,
+  "translated": 2409,
   "note": "只需填 dst。src 內的材質包圖示與數字已在抽取階段排除。"
  },
  "entries": {
@@ -1617,7 +1617,7 @@
   },
   "gear-armour#0144": {
    "src": "The enemy of your enemy is your friend. It's naught but a ceasefire of convenience, if not necessity, yet it's a chance to lick your wounds and focus your might against the threat at hand.",
-   "dst": "敵の敵は味方。必要とまでは言わずとも、都合による停戦にすぎない。それでも傷を舐め、目の前の脅威に全力を注ぐ好機ではある。",
+   "dst": "敵の敵は味方。都合による、いや必要に迫られての停戦にすぎない。それでも傷を舐め、目の前の脅威に全力を注ぐ好機ではある。",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -1760,7 +1760,7 @@
   },
   "gear-armour#0157": {
    "src": "\"With the corruption seemingly tied to the emeralds dug by the Roots, people thought gold was the next best thing, the idiots.\" -Gerald, Retired Miner",
-   "dst": "「腐敗は Roots が掘ったエメラルドと関係があるらしいってんで、次に良いのは金だとみんな思ったのさ。馬鹿な連中だよ」――Gerald、引退した鉱夫",
+   "dst": "「腐敗は Roots で掘られたエメラルドと関係があるらしいってんで、次に良いのは金だとみんな思ったのさ。馬鹿な連中だよ」――Gerald、引退した鉱夫",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -2716,7 +2716,7 @@
   },
   "gear-armour#0243": {
    "src": "There is nothing in these walls that will remain hidden forever. Nothing unaccounted for by the gleaming light of The Citadel.",
-   "dst": "この壁の中に、永遠に隠されたままでいられるものなど何もない。The Citadel の輝く光に照らされて、数えられずに済むものは何ひとつない。",
+   "dst": "この壁の中に、永遠に隠されたままでいられるものなど何もない。城塞の輝く光に照らされて、数えられずに済むものは何ひとつない。",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -3037,7 +3037,7 @@
   },
   "gear-armour#0272": {
    "src": "Found on the mangled body of a famous Tromsian general fallen to a corrupted siege some time ago, these boots allow the wearer to remain calm and steadfast in the face of overwhelming odds.It's pulling towards something.",
-   "dst": "少し前に腐敗の包囲戦で倒れた、名高き Troms の将軍の無残な亡骸から見つかったこのブーツは、圧倒的な劣勢に直面しても、着用者が冷静かつ揺るぎなくいられるようにする。何かに引き寄せられている。",
+   "dst": "かつて腐敗の包囲戦で倒れた、名高き Troms の将軍の無残な亡骸から見つかったこのブーツは、圧倒的な劣勢に直面しても、着用者が冷静かつ揺るぎなくいられるようにする。何かに引き寄せられている。",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -3649,7 +3649,7 @@
   },
   "gear-armour#0327": {
    "src": "The Expanse holds an exigent paranoia, a hamartia for even the most renowned heroes. Only a survivor knows to hoard intelligence, showing their hand only when none will be left to recount it.",
-   "dst": "広大な荒野は切迫した猜疑を孕んでおり、それは最も名高い英雄にとってさえ致命的な弱点となる。情報を秘めておくことを知っているのは生存者だけで、手の内を明かすのは、それを語り伝える者が誰も残らないときだけだ。",
+   "dst": "Expanse は切迫した猜疑を孕んでおり、それは最も名高い英雄にとってさえ致命的な弱点となる。情報を秘めておくことを知っているのは生存者だけで、手の内を明かすのは、それを語り伝える者が誰も残らないときだけだ。",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -7093,7 +7093,7 @@
   },
   "gear-armour#0699": {
    "src": "Changeling's Chestplate",
-   "dst": "取り替え子のチェストプレート",
+   "dst": "チェンジリングのチェストプレート",
    "role": "name",
    "kind": "term",
    "ctx": [
@@ -23186,6 +23186,17 @@
    ],
    "lines": 1,
    "flat": "I         ,        ;                , t      o  '   l   d'       ;              y   ' o   u  ,                t    o   ' ,     .       ;    . s   , t      '     a .    y       ,         ;                                                              a  '     w   ;   ,a      . y"
+  },
+  "gear-armour#2483": {
+   "src": "A soul sacrificed willingly, to an eternity unwound. Imprints and memories; all that remain of a hero of the lands.",
+   "dst": "解きほぐされた永遠へと、自ら進んで捧げられた魂。痕跡と記憶。この地の英雄の、残されたすべて。",
+   "role": "desc",
+   "kind": "block",
+   "ctx": [
+    "armour/Phantasmal Hostage/lore"
+   ],
+   "lines": 1,
+   "flat": "A soul sacrificed willingly, to an eternity unwound. Imprints and memories; all that remain of a hero of the lands."
   }
  }
 }

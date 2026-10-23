@@ -844,7 +844,7 @@
   },
   "A Journey Beyond#088": {
    "src": "Firstly, a shard from a Dernic Beast. There is one living in the depths of the {p}.",
-   "dst": "首先，一片 Dernic Beast 的碎片。{p} 的深處就住著一隻。",
+   "dst": "首先，一片 Dern 野獸的碎片。{p} 的深處就住著一隻。",
    "role": "desc",
    "kind": "dialogue",
    "quest": "A Journey Beyond",
@@ -1324,7 +1324,7 @@
   },
   "A Journey Beyond#136": {
    "src": "Remember the goal Elphie, we must reach the end of the expanse.",
-   "dst": "別忘了目標，Elphie，我們必須抵達這片區域的盡頭。",
+   "dst": "別忘了目標，Elphie，我們必須抵達 Silent Expanse 的盡頭。",
    "role": "desc",
    "kind": "dialogue",
    "quest": "A Journey Beyond",
@@ -2124,7 +2124,7 @@
   },
   "A Journey Beyond#216": {
    "src": "The mission must be carried out. The plan has changed, but it's imperative we get to the end of this expanse, together.",
-   "dst": "任務一定要完成。計畫變了，但我們非得一起走到這片區域的盡頭不可。",
+   "dst": "任務一定要完成。計畫變了，但我們非得一起走到 Silent Expanse 的盡頭不可。",
    "role": "desc",
    "kind": "dialogue",
    "quest": "A Journey Beyond",
@@ -2134,7 +2134,7 @@
   },
   "A Journey Beyond#217": {
    "src": "No more running for us, huh {u}? Ah, we're here.",
-   "dst": "我們再也不用逃了，對吧 {u}？啊，到了。",
+   "dst": "這下我們是跑不了了，對吧 {u}？啊，到了。",
    "role": "desc",
    "kind": "dialogue",
    "quest": "A Journey Beyond",

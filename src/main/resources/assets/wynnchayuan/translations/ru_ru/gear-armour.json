@@ -3,8 +3,8 @@
   "domain": "gear-armour",
   "lang": "ru_ru",
   "generated": "2026-08-19T12:14:19+00:00",
-  "count": 2483,
-  "translated": 2410,
+  "count": 2484,
+  "translated": 2413,
   "note": "只需填 dst。src 內的材質包圖示與數字已在抽取階段排除。"
  },
  "entries": {
@@ -552,7 +552,7 @@
   },
   "gear-armour#0048": {
    "src": "The last known crafts of Theorick before his fall in battle were pieces of armour crafted out of pure ice, all of which have melted save for these shimmering boots. The coldest gales and most suffocating heat nurture and repair the wearer instead of being stifling or deadly.",
-   "dst": "Последними известными творениями Theorick перед гибелью в бою были доспехи из чистого льда; все они растаяли, кроме этих мерцающих сапог. Самые студёные ветра и самый удушливый зной не душат и не губят носящего, а, напротив, питают и исцеляют его.",
+   "dst": "Последними известными творениями Theorick до его падения в бою были доспехи из чистого льда; все они растаяли, кроме этих мерцающих сапог. Самые студёные ветра и самый удушливый зной не душат и не губят носящего, а, напротив, питают и исцеляют его.",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -1760,7 +1760,7 @@
   },
   "gear-armour#0157": {
    "src": "\"With the corruption seemingly tied to the emeralds dug by the Roots, people thought gold was the next best thing, the idiots.\" -Gerald, Retired Miner",
-   "dst": "«Раз уж осквернение, судя по всему, связано с изумрудами, которые добывали Roots, народ решил, что золото - лучшая замена. Идиоты». - Gerald, шахтёр на пенсии",
+   "dst": "«Раз уж осквернение, судя по всему, связано с изумрудами, добытыми у Roots, народ решил, что золото - лучшая замена. Идиоты». - Gerald, шахтёр на пенсии",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -2716,7 +2716,7 @@
   },
   "gear-armour#0243": {
    "src": "There is nothing in these walls that will remain hidden forever. Nothing unaccounted for by the gleaming light of The Citadel.",
-   "dst": "В этих стенах ничто не останется сокрытым навечно. Ничто не ускользнёт от учёта в сияющем свете The Citadel.",
+   "dst": "В этих стенах ничто не останется сокрытым навечно. Ничто не ускользнёт от учёта в сияющем свете Citadel.",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -3649,7 +3649,7 @@
   },
   "gear-armour#0327": {
    "src": "The Expanse holds an exigent paranoia, a hamartia for even the most renowned heroes. Only a survivor knows to hoard intelligence, showing their hand only when none will be left to recount it.",
-   "dst": "Пустошь полна неотступной паранойи - рокового изъяна даже для самых прославленных героев. Лишь выживший знает, что сведения нужно копить, раскрывая карты только тогда, когда не останется никого, кто мог бы об этом рассказать.",
+   "dst": "В Silent Expanse царит неотступная паранойя - роковой изъян даже для самых прославленных героев. Лишь выживший знает, что сведения нужно копить, раскрывая карты только тогда, когда не останется никого, кто мог бы об этом рассказать.",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -4126,7 +4126,7 @@
   },
   "gear-armour#0370": {
    "src": "Hidden amongst the foundations of the Expanse are anomalous fragments wrapped in an otherworldly power. While unsettling to the touch, the strength they impart is too tempting to ignore.",
-   "dst": "В основании Простора таятся аномальные осколки, окутанные потусторонней силой. Прикасаться к ним жутковато, но дарованная ими мощь слишком соблазнительна, чтобы от неё отказаться.",
+   "dst": "В основании Silent Expanse таятся аномальные осколки, окутанные потусторонней силой. Прикасаться к ним жутковато, но дарованная ими мощь слишком соблазнительна, чтобы от неё отказаться.",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -14717,7 +14717,7 @@
   },
   "gear-armour#1546": {
    "src": "Nether Boots",
-   "dst": "Сапоги Незера",
+   "dst": "Сапоги Преисподней",
    "role": "name",
    "kind": "term",
    "ctx": [
@@ -14726,7 +14726,7 @@
   },
   "gear-armour#1547": {
    "src": "Nether Cap",
-   "dst": "Шапка Незера",
+   "dst": "Шапка Преисподней",
    "role": "name",
    "kind": "term",
    "ctx": [
@@ -14735,7 +14735,7 @@
   },
   "gear-armour#1548": {
    "src": "Nether Pants",
-   "dst": "Штаны Незера",
+   "dst": "Штаны Преисподней",
    "role": "name",
    "kind": "term",
    "ctx": [
@@ -14744,7 +14744,7 @@
   },
   "gear-armour#1549": {
    "src": "Nether Tunic",
-   "dst": "Туника Незера",
+   "dst": "Туника Преисподней",
    "role": "name",
    "kind": "term",
    "ctx": [
@@ -14753,7 +14753,7 @@
   },
   "gear-armour#1550": {
    "src": "Nether's Reach",
-   "dst": "Нагрудник длани Незера",
+   "dst": "Нагрудник длани Преисподней",
    "role": "name",
    "kind": "term",
    "ctx": [
@@ -14762,7 +14762,7 @@
   },
   "gear-armour#1551": {
    "src": "Nether's Scar",
-   "dst": "Сапоги со шрамом Незера",
+   "dst": "Сапоги со шрамом Преисподней",
    "role": "name",
    "kind": "term",
    "ctx": [
@@ -23098,7 +23098,7 @@
   },
   "gear-armour#2474": {
    "src": "The universe loves you. It loves you so much that its heart bleeds for you, into your hands and leaking between your fingers. You can't hold onto it; can't say back the words that mean so much to you, for there is nobody there to hear them.",
-   "dst": "",
+   "dst": "Вселенная любит тебя. Любит так сильно, что её сердце кровоточит ради тебя - тебе в ладони, просачиваясь меж пальцев. Тебе её не удержать; не ответить теми словами, что так много для тебя значат, ведь там нет никого, кто бы их услышал.",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -23109,7 +23109,7 @@
   },
   "gear-armour#2475": {
    "src": "\"What's yours is mine, and what's mine is yours, so emptying those bloated coffers is of little loss to you, no?\"",
-   "dst": "",
+   "dst": "«Что твоё - то моё, а что моё - то твоё, так что опустошить эти раздутые сундуки - для тебя небольшая потеря, не так ли?»",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -23186,6 +23186,17 @@
    ],
    "lines": 1,
    "flat": "I         ,        ;                , t      o  '   l   d'       ;              y   ' o   u  ,                t    o   ' ,     .       ;    . s   , t      '     a .    y       ,         ;                                                              a  '     w   ;   ,a      . y"
+  },
+  "gear-armour#2483": {
+   "src": "A soul sacrificed willingly, to an eternity unwound. Imprints and memories; all that remain of a hero of the lands.",
+   "dst": "Душа, добровольно отданная распустившейся вечности. Отпечатки и воспоминания - всё, что осталось от героя этих земель.",
+   "role": "desc",
+   "kind": "block",
+   "ctx": [
+    "armour/Phantasmal Hostage/lore"
+   ],
+   "lines": 1,
+   "flat": "A soul sacrificed willingly, to an eternity unwound. Imprints and memories; all that remain of a hero of the lands."
   }
  }
 }

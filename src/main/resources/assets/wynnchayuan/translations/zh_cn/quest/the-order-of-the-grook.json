@@ -278,7 +278,7 @@
   },
   "The Order of the Grook#027": {
    "src": "It also is the element o-of knowledge, and pure magicality. Water i-is a sort of magical default, if you w-will. If it isn't focused on o-one element or another, magic ends up being water-based.",
-   "dst": "它也是知识与纯粹魔法的元素。水就像是、是魔法的默认值，可以这么说。如果魔法没有聚焦在某一种元、元素上，最后就会变成以水为基础",
+   "dst": "它也是知识与纯粹魔法的元素。水就像是、是魔法的默认值，可以这么说。如果魔法没有聚焦在某一种元、元素上，最后就会变成以水为基础的。",
    "role": "desc",
    "kind": "dialogue",
    "quest": "The Order of the Grook",
@@ -1184,7 +1184,7 @@
   },
   "The Order of the Grook#117": {
    "src": "And then, then! Joyous day, the Corkians arrived with their marvelous machines, and their electromagic! Thunder controlled, thunder tamed! The wonder of it all!",
-   "dst": "然后，然后！欢天喜地的一天，Corkus 人带着他们了不起的机器和电磁魔法来了！雷被控制了，雷被驯服了！真是奇妙无比！",
+   "dst": "然后，然后！欢天喜地的一天，Corkus 人带着他们了不起的机器和电魔法来了！雷被控制了，雷被驯服了！真是奇妙无比！",
    "role": "desc",
    "kind": "dialogue",
    "quest": "The Order of the Grook",
@@ -1194,7 +1194,7 @@
   },
   "The Order of the Grook#118": {
    "src": "Electromagic makes handles crank, gears spin, metal move, gives sheer stones the power to THINK, and to PLAN! A Corkian original, and a splendid, splendid development reintroduced!",
-   "dst": "电磁魔法让曲柄转动、齿轮旋转、金属移动，还让光秃秃的石头拥有思考、拥有计划的能力！这是 Corkus 人的原创，一项重新引入的了不起、了不起的发展！",
+   "dst": "电魔法让曲柄转动、齿轮旋转、金属移动，还让光秃秃的石头拥有思考、拥有计划的能力！这是 Corkus 人的原创，一项重新引入的了不起、了不起的发展！",
    "role": "desc",
    "kind": "dialogue",
    "quest": "The Order of the Grook",
@@ -1204,7 +1204,7 @@
   },
   "The Order of the Grook#119": {
    "src": "And so, you shall see for yourselves! Electromagic at work! You will control thunder and electricity, and make the machines bend to your world today, today, this shocking day!",
-   "dst": "所以，你们要亲眼见识！电磁魔法的运作！今天你们要控制雷与电，让机器顺从你们的意志，就在今天，今天，这令人触电的一天！",
+   "dst": "所以，你们要亲眼见识！电魔法的运作！今天你们要控制雷与电，让机器顺从你们的意志，就在今天，今天，这令人触电的一天！",
    "role": "desc",
    "kind": "dialogue",
    "quest": "The Order of the Grook",
@@ -1594,7 +1594,7 @@
   },
   "The Order of the Grook#158": {
    "src": "Alright everyone, take a seat but don't get comfy. You'll be getting up soon. Hope you brought your reading glasses.",
-   "dst": "好了各位。坐下，但别坐得太舒服。你们很快就要站起来了。希望你们带了老花眼镜",
+   "dst": "好了各位。坐下，但别坐得太舒服。你们很快就要站起来了。希望你们带了老花眼镜。",
    "role": "desc",
    "kind": "dialogue",
    "quest": "The Order of the Grook",
@@ -1684,7 +1684,7 @@
   },
   "The Order of the Grook#167": {
    "src": "Your feathers are coming in just nicely, fledgeling. You can scoot off to your next class now.",
-   "dst": "你的羽毛长得真不错，小雏鸟。你可以去上下一堂课了",
+   "dst": "你的羽毛长得真不错，小雏鸟。你可以去上下一堂课了。",
    "role": "desc",
    "kind": "dialogue",
    "quest": "The Order of the Grook",
@@ -1970,7 +1970,7 @@
   },
   "The Order of the Grook#195": {
    "src": "Though many Greenskins societies with mystical particles, the only known way for them to utilize magic is through magical artifacts. They've little magic potential.",
-   "dst": "虽然很多绿皮族社会与神秘粒子有所接触，但他们唯一已知使用魔法的方式是通过魔法宝物。他们的魔法潜力很低。",
+   "dst": "虽然很多绿皮族社会都有神秘的仪式习俗，但他们唯一已知使用魔法的方式是通过魔法宝物。他们的魔法潜力很低。",
    "role": "desc",
    "kind": "dialogue",
    "quest": "The Order of the Grook",
@@ -2530,7 +2530,7 @@
   },
   "The Order of the Grook#251": {
    "src": "Magical marvels such as the electromagic generator in {p} are powered primarily by quartz and related materials.",
-   "dst": "像 {p} 的电磁魔法发电机这样的魔法奇迹，主要就是靠石英及相关材料驱动的。",
+   "dst": "像 {p} 的电魔法发电机这样的魔法奇迹，主要就是靠石英及相关材料驱动的。",
    "role": "desc",
    "kind": "dialogue",
    "quest": "The Order of the Grook",

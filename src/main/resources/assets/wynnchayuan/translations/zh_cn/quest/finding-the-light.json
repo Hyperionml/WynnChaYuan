@@ -98,7 +98,7 @@
   },
   "Finding the Light#009": {
    "src": "The balance shifts, and Orphion grows weary. Angered, desperate. He called to you as a last plea- and you have done admirably, for what he has asked of you.",
-   "dst": "平衡正在倾斜，而 Orphion 日渐疲惫。愤怒，绝望。他向你呼唤，那是最后的恳求——而你把他所托之事完成得令人敬佩。",
+   "dst": "平衡正在倾斜，而 Orphion 日渐疲惫。愤怒，绝望。祂向你呼唤，那是最后的恳求——而你把祂所托之事完成得令人敬佩。",
    "role": "desc",
    "kind": "dialogue",
    "quest": "Finding the Light",
@@ -128,7 +128,7 @@
   },
   "Finding the Light#012": {
    "src": "New Quest Started: Realm of Light IV - Finding the Light",
-   "dst": "新任务开始: Realm of Light IV - Finding the Light",
+   "dst": "新任务开始: 光之领域 IV - 寻找光明",
    "role": "desc",
    "kind": "dialogue",
    "quest": "Finding the Light",
@@ -208,7 +208,7 @@
   },
   "Finding the Light#020": {
    "src": "There's another loose page here, with more High Gavellian text on it. Lari should be able to translate this.",
-   "dst": "这里还有一张散页，上面又是高等 Gavel 文字。Lari 应该能翻译出来。",
+   "dst": "这里还有一张散页，上面又是高等 Gavel 语写的文字。Lari 应该能翻译出来。",
    "role": "desc",
    "kind": "dialogue",
    "quest": "Finding the Light",
@@ -1108,7 +1108,7 @@
   },
   "Finding the Light#110": {
    "src": "...I have to do at least one thing right. I can't just keep up this holding pattern. I'll do whatever is necessary!",
-   "dst": "……我至少得做对一件事。我不能一直这样原地踏步下去。无论需要做什么，我都会去做！",
+   "dst": "……我至少得做对一件事。我不能一直这样原地踏步下去。凡是必要的事，我都会去做！",
    "role": "desc",
    "kind": "dialogue",
    "quest": "Finding the Light",
@@ -1188,7 +1188,7 @@
   },
   "Finding the Light#118": {
    "src": "I have seen Lari's work- And she has done this land a priceless service. Alone, she has kept the Decay from creeping south, and thus the Guardian remains with us.",
-   "dst": "我见过 Lari 的付出——她为这片土地做出了无价的贡献。她独自一人阻止了衰败向南蔓延，守护者才得以留在我们身边。",
+   "dst": "我见过 Lari 的付出——她为这片土地做出了无价的贡献。她独自一人阻止了黯蚀向南蔓延，守护者才得以留在我们身边。",
    "role": "desc",
    "kind": "dialogue",
    "quest": "Finding the Light",
@@ -1208,7 +1208,7 @@
   },
   "Finding the Light#120": {
    "src": "Orphion's circumstances are dire- And so you must come to understand something. He is above us, in terms of morals. Such concepts do not apply to him.",
-   "dst": "Orphion 的处境岌岌可危——所以你必须明白一件事。在道德上，他凌驾于我们之上。那种概念并不适用于他。",
+   "dst": "Orphion 的处境岌岌可危——所以你必须明白一件事。在道德上，祂凌驾于我们之上。那种概念并不适用于祂。",
    "role": "desc",
    "kind": "dialogue",
    "quest": "Finding the Light",
@@ -1218,7 +1218,7 @@
   },
   "Finding the Light#121": {
    "src": "As the embodiment of Light itself, he has no sense of morals- Merely survival and stasis. What he asks of us, many will balk at.",
-   "dst": "身为光本身的化身，他没有道德观——只有生存与维持。他对我们的要求，很多人都会退缩。",
+   "dst": "身为光本身的化身，祂没有道德观——只有生存与维持。祂对我们的要求，很多人都会退缩。",
    "role": "desc",
    "kind": "dialogue",
    "quest": "Finding the Light",
@@ -1608,7 +1608,7 @@
   },
   "Finding the Light#160": {
    "src": "dire actions in the presence of the guardian will waken many things",
-   "dst": "在守护者面前的恶行将唤醒许多东西",
+   "dst": "在守护者面前的非常手段将唤醒许多东西",
    "role": "desc",
    "kind": "dialogue",
    "quest": "Finding the Light",

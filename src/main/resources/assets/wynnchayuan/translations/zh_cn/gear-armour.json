@@ -3,8 +3,8 @@
   "domain": "gear-armour",
   "lang": "zh_cn",
   "generated": "2026-08-19T12:14:19+00:00",
-  "count": 2483,
-  "translated": 2404,
+  "count": 2484,
+  "translated": 2405,
   "note": "只需填 dst。src 里的材质包图标与数字在抽取阶段就已经排除了。"
  },
  "entries": {
@@ -125,7 +125,7 @@
   },
   "gear-armour#0010": {
    "src": "It's a strange feeling, running forever to reach the horizon knowing another lies just as far past.",
-   "dst": "那是一种奇怪的感觉：为了抵达地平线而永远地跑，心里却清楚下一道地平线还在同样远的地方。",
+   "dst": "那是一种奇怪的感觉: 为了抵达地平线而永远地跑，心里却清楚下一道地平线还在同样远的地方。",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -208,7 +208,7 @@
   },
   "gear-armour#0017": {
    "src": "Out of respect and care for the dead, bovemists cloak them in blessed shrouds to aid their spirits in passing. These efforts, however, are not respected by the dead.",
-   "dst": "出于对逝者的尊重与关怀，Bovemist 会为他们披上祝福过的寿衣，助其灵魂安然离去。可惜这份心意，逝者并不领情。",
+   "dst": "出于对逝者的尊重与关怀，牛神信徒会为他们披上祝福过的寿衣，助其灵魂安然离去。可惜这份心意，逝者并不领情。",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -429,7 +429,7 @@
   },
   "gear-armour#0037": {
    "src": "The sweater has the quote \"All STOCKINGED up for the season\" knitted onto the front.",
-   "dst": "毛衣正面织着一句话：「这个季节，圣诞「袜」满满当当！」",
+   "dst": "毛衣正面织着一句话: 「这个季节，圣诞「袜」满满当当！」",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -452,7 +452,7 @@
   },
   "gear-armour#0039": {
    "src": "The sweater has the quote \"Prepare for a FLURRY of Craftmas spirit\" knitted onto the front.",
-   "dst": "毛衣正面织着一句话：「准备迎接「雪」崩般的 Craftmas 气氛」",
+   "dst": "毛衣正面织着一句话: 「准备迎接「雪」崩般的 Craftmas 气氛」",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -474,7 +474,7 @@
   },
   "gear-armour#0041": {
    "src": "The thick, Bovemist-sanctified cloth is worn by their priests during certain religious ceremonies. It clears the mind and purifies the body.",
-   "dst": "这块厚实的布经过 Bovemist 祝圣，是他们的祭司在某些宗教仪式上穿戴的。它能清明心智、净化身体。",
+   "dst": "这块厚实的布经过牛神信徒祝圣，是他们的祭司在某些宗教仪式上穿戴的。它能清明心智、净化身体。",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -508,7 +508,7 @@
   },
   "gear-armour#0044": {
    "src": "The sweater has the quote \"Don't feel BLUE- It's Craftmas!\" knitted onto the front.",
-   "dst": "毛衣正面织着一句话：「别「蓝」瘦了——Craftmas 到啦！」",
+   "dst": "毛衣正面织着一句话: 「别「蓝」瘦了——Craftmas 到啦！」",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -552,7 +552,7 @@
   },
   "gear-armour#0048": {
    "src": "The last known crafts of Theorick before his fall in battle were pieces of armour crafted out of pure ice, all of which have melted save for these shimmering boots. The coldest gales and most suffocating heat nurture and repair the wearer instead of being stifling or deadly.",
-   "dst": "Theorick 战死之前最后已知的作品，是几件用纯冰打造的护甲，如今除了这双闪闪发亮的靴子之外全都融化了。最凛冽的寒风与最令人窒息的酷热，对穿戴者来说非但不致命，反而会滋养、修复他。",
+   "dst": "Theorick 在战场上倒下之前最后已知的作品，是几件用纯冰打造的护甲，如今除了这双闪闪发亮的靴子之外全都融化了。最凛冽的寒风与最令人窒息的酷热，对穿戴者来说非但不致命，反而会滋养、修复他。",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -563,7 +563,7 @@
   },
   "gear-armour#0049": {
    "src": "This helmet was worn long ago by an infamous assassin who plagued Bovemist sites for decades. It was crafted of the still-bloody skin of their most prized and worshiped cows.",
-   "dst": "很久以前，一名臭名昭著、祸害 Bovemist 圣地长达数十年的刺客戴过这顶头盔。它是用他们最珍视、最崇拜的牛身上还带着血的皮做成的。",
+   "dst": "很久以前，一名臭名昭著、祸害牛神信徒圣地长达数十年的刺客戴过这顶头盔。它是用他们最珍视、最崇拜的牛身上还带着血的皮做成的。",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -619,7 +619,7 @@
   },
   "gear-armour#0054": {
    "src": "The sweater has the quote \"YULE see me smiling this season\" knitted onto the front.",
-   "dst": "毛衣正面织着一句话：「这个季节，你「节」对会看到我满脸笑容」",
+   "dst": "毛衣正面织着一句话: 「这个季节，你「节」对会看到我满脸笑容」",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -765,7 +765,7 @@
   },
   "gear-armour#0067": {
    "src": "The sweater has the quote \"SLOPE to SKI you again next Craftmas\" knitted onto the front.",
-   "dst": "毛衣正面织着一句话：「「坡」不及待想在明年 Craftmas 再「滑」来见你」",
+   "dst": "毛衣正面织着一句话: 「「坡」不及待想在明年 Craftmas 再「滑」来见你」",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -831,7 +831,7 @@
   },
   "gear-armour#0073": {
    "src": "The shirt has the quote \"I went to the {p} in {p} and all I got was this lousy T-shirt\" printed on it.",
-   "dst": "这件衣服上印着一句话：「我去了 {p} (在 {p})，结果只拿到这件破 T 恤」。",
+   "dst": "这件衣服上印着一句话: 「我去了 {p} (在 {p})，结果只拿到这件破 T 恤」。",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -865,7 +865,7 @@
   },
   "gear-armour#0076": {
    "src": "A million stinging needles, tangled around your head; A crown of thorns; A wreath of nematocysts; A chaplet of venom and pain. From that poison cup, you drink and drink, until-Like a jellyfish-Only the currents decide your way. Until only an addictive Hate compels you.",
-   "dst": "百万根螫针缠绕在你头上：一顶荆棘之冠，一圈刺丝囊编成的花环，一串由毒液与痛楚串成的念珠。你从那只毒杯里一口一口地喝，直到——像水母一样——只剩水流替你决定方向。直到只剩一股令人上瘾的恨在驱使你。",
+   "dst": "百万根螫针缠绕在你头上: 一顶荆棘之冠，一圈刺丝囊编成的花环，一串由毒液与痛楚串成的念珠。你从那只毒杯里一口一口地喝，直到——像水母一样——只剩水流替你决定方向。直到只剩一股令人上瘾的恨在驱使你。",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -1187,7 +1187,7 @@
   },
   "gear-armour#0105": {
    "src": "\"We're trying to dig up history, not horrors! What is wrong with this province?!\"  -Excavator Vade, WynnExcavation Site A Director",
-   "dst": "「我们是要挖历史，不是挖恐怖的东西！这个行省到底是怎么回事？！」——挖掘员 Vade，WynnExcavation A 号工地主任",
+   "dst": "「我们是要挖历史，不是挖恐怖的东西！这个行省到底是怎么回事？！」——挖掘员 Vade，WynnExcavation A 号发掘点主任",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -1352,7 +1352,7 @@
   },
   "gear-armour#0120": {
    "src": "The psalm tag has been replaced with a custom message from the armorer. What it says about the original owner is better left to the imagination.",
-   "dst": "原本刻着诗篇的铭牌被换成了铠甲匠自己写的话。至于上面对原主人说了些什么，还是留给想象比较好。",
+   "dst": "原本刻着诗篇的铭牌被换成了铠甲匠自己写的话。至于上面说了原主人些什么，还是留给想象比较好。",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -1628,7 +1628,7 @@
   },
   "gear-armour#0145": {
    "src": "Crystalline towers and stark white horizons. The sharpest frost shards and the softest snowfall. Before the permafrost monarch of winter, lay your heart down: become the right hand of the cold.",
-   "dst": "水晶般的高塔，惨白的地平线。最锋利的霜屑，最轻柔的落雪。在那位永冻的冬之君王面前放下你的心：成为寒冷的右手。",
+   "dst": "水晶般的高塔，惨白的地平线。最锋利的霜屑，最轻柔的落雪。在那位永冻的冬之君王面前放下你的心: 成为寒冷的右手。",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -1760,7 +1760,7 @@
   },
   "gear-armour#0157": {
    "src": "\"With the corruption seemingly tied to the emeralds dug by the Roots, people thought gold was the next best thing, the idiots.\" -Gerald, Retired Miner",
-   "dst": "「既然腐化看起来跟 Roots 挖出来的绿宝石脱不了关系，大家就以为退而求其次挖金子准没错——一群蠢货。」——Gerald，退休矿工",
+   "dst": "「既然腐化看起来跟在 Roots 那边挖出来的绿宝石脱不了关系，大家就以为退而求其次挖金子准没错——一群蠢货。」——Gerald，退休矿工",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -1826,7 +1826,7 @@
   },
   "gear-armour#0163": {
    "src": "The sweater has the quote \"I'm feeling PINE, what about you\" knitted onto the front.",
-   "dst": "毛衣正面织着一句话：「我「松」快得很，你呢？」",
+   "dst": "毛衣正面织着一句话: 「我「松」快得很，你呢？」",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -1949,7 +1949,7 @@
   },
   "gear-armour#0174": {
    "src": "Many blacksmiths have tried to craft their products in this armor's image, but none so far have been able to capture the brilliance of these Bovemist-blessed greaves.",
-   "dst": "许多铁匠都试过照这副护甲的样子打造自己的作品，但至今没有人捕捉得到这双 Bovemist 祝福过的护胫那份光辉。",
+   "dst": "许多铁匠都试过照这副护甲的样子打造自己的作品，但至今没有人捕捉得到这双牛神信徒祝福过的护胫那份光辉。",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -2027,7 +2027,7 @@
   },
   "gear-armour#0181": {
    "src": "This cheap paper mask drawn in the likeness of Herbert von Legendary as he was having a complete nervous breakdown after having his life threatened by people who would not stop challenging him, is handed over in the ill-conceived hope of easing the murderous tendencies of those who have spent unnecessary amounts of time, broken the mold, gone even further beyond, pushed onward to prove that they will not stop, ultimately garnered an unhealthy obsession, and then came to blows in Doctor Legendary's house demanding further prizes all for the singularly unsettling and quite possibly sociopathic purpose of spending unnecessary amounts of time completing the Legendary Challenge. The inside has the names and addresses of multiple notable psychoanalysts written with a hastily-scrawled note from Doctor Legendary himself begging that you stop completing the Legendary Challenge and go get therapy before you do something to him that would constitute legal action against you.",
-   "dst": "这副廉价纸面具画的是 Herbert von Legendary——画的是他被那些没完没了挑战他的人威胁到性命、彻底精神崩溃时的模样。它被递出来，抱着一个考虑欠周的希望：安抚那些花了多得没必要的时间、打破常规、更进一步、奋力向前证明自己绝不停止、最终养成病态执念、然后闯进 Legendary 博士家里大打出手讨要更多奖品的人的杀意——而这一切，只为了一个格外令人不安、很可能带有反社会倾向的目的：在传奇挑战上花了多得没必要的时间。面具内侧写着好几位知名精神分析师的姓名与地址，还附了一张 Legendary 博士亲手潦草写下的字条，恳求你别再完成传奇挑战，赶快去接受治疗，免得你对他做出什么足以让你吃上官司的事。",
+   "dst": "这副廉价纸面具画的是 Herbert von Legendary——画的是他被那些没完没了挑战他的人威胁到性命、彻底精神崩溃时的模样。它被递出来，抱着一个考虑欠周的希望: 安抚那些花了多得没必要的时间、打破常规、更进一步、奋力向前证明自己绝不停止、最终养成病态执念、然后闯进 Legendary 博士家里大打出手讨要更多奖品的人的杀意——而这一切，只为了一个格外令人不安、很可能带有反社会倾向的目的: 在传奇挑战上花了多得没必要的时间。面具内侧写着好几位知名精神分析师的姓名与地址，还附了一张 Legendary 博士亲手潦草写下的字条，恳求你别再完成传奇挑战，赶快去接受治疗，免得你对他做出什么足以让你吃上官司的事。",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -2038,7 +2038,7 @@
   },
   "gear-armour#0182": {
    "src": "The sweater has the quote \"GRAUPELING with a second helping of Craftmas feast\" knitted onto the front.",
-   "dst": "毛衣正面织着一句话：「和第二份 Craftmas 大餐「霰」入苦战」",
+   "dst": "毛衣正面织着一句话: 「和第二份 Craftmas 大餐「霰」入苦战」",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -2505,7 +2505,7 @@
   },
   "gear-armour#0224": {
    "src": "In such a sinister and wicked expanse, one wonders if the best solution is to give up your eyes and replace them with a pair that does not indulge in such evils, cleansing them from your idyllic field of view while the wider world around you withers away.",
-   "dst": "置身这样一片阴森邪恶的广域，人不免会想：最好的办法是不是舍弃自己的双眼，换上一对不沉溺于这些恶的眼睛——把它们从你那片田园般的视野里洗去，任凭外头更大的世界一点一点枯萎。",
+   "dst": "置身这样一片阴森邪恶的广域，人不免会想: 最好的办法是不是舍弃自己的双眼，换上一对不沉溺于这些恶的眼睛——把它们从你那片田园般的视野里洗去，任凭外头更大的世界一点一点枯萎。",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -2672,7 +2672,7 @@
   },
   "gear-armour#0239": {
    "src": "The sweater has the quote \"ORANGE you glad I showed up for Craftmas\" knitted onto the front.",
-   "dst": "毛衣正面织着一句话：「「橙」认吧，我来过 Craftmas 你很开心」",
+   "dst": "毛衣正面织着一句话: 「「橙」认吧，我来过 Craftmas 你很开心」",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -2716,7 +2716,7 @@
   },
   "gear-armour#0243": {
    "src": "There is nothing in these walls that will remain hidden forever. Nothing unaccounted for by the gleaming light of The Citadel.",
-   "dst": "这些城墙之内，没有什么能永远藏得住。The Citadel 闪耀的光芒不会漏掉任何东西。",
+   "dst": "这些城墙之内，没有什么能永远藏得住。Citadel 闪耀的光芒不会漏掉任何东西。",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -2837,7 +2837,7 @@
   },
   "gear-armour#0254": {
    "src": "The sweater has the quote \"Let me NICK a few extra cookies for Craftmas\" knitted onto the front.",
-   "dst": "毛衣正面织着一句话：「Craftmas 到了，让我「顺」手多拿几块饼干」",
+   "dst": "毛衣正面织着一句话: 「Craftmas 到了，让我「顺」手多拿几块饼干」",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -2848,7 +2848,7 @@
   },
   "gear-armour#0255": {
    "src": "The sweater has the quote \"Going HAM on Craftmas dinner tonight\" knitted onto the front.",
-   "dst": "毛衣正面织着一句话：「今晚的 Craftmas 晚餐，「火腿」全开！」",
+   "dst": "毛衣正面织着一句话: 「今晚的 Craftmas 晚餐，「火腿」全开！」",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -2904,7 +2904,7 @@
   },
   "gear-armour#0260": {
    "src": "A tag on the inside of the hat reads: \"Do not fly during thunderstorms! The wearer is liable for all injuries sustained while using this product.\"",
-   "dst": "帽子内侧的标签写着：「雷雨天请勿飞行！使用本产品期间所受的一切伤害，概由佩戴者自行负责。」",
+   "dst": "帽子内侧的标签写着: 「雷雨天请勿飞行！使用本产品期间所受的一切伤害，概由佩戴者自行负责。」",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -2926,7 +2926,7 @@
   },
   "gear-armour#0262": {
    "src": "An age of oxidation. To assert that you will remain, and others all across the world will be left behind. To overwhelm everything with toxic air, ensuring that extinctions follow your wake. Some stop breathing, but the gears of time march on.",
-   "dst": "一个氧化的纪元。宣告你会留下，而世上其余的一切都将被抛在后头。以毒气淹没万物，确保灭绝紧随你的足迹。有些人停止了呼吸，时间的齿轮却照样前行。",
+   "dst": "一个氧化的纪元。宣告你会留下，而世上其余的一切都将被抛在后头。以毒气淹没万物，确保灭绝紧随你的足迹。有些生物停止了呼吸，时间的齿轮却照样前行。",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -2948,7 +2948,7 @@
   },
   "gear-armour#0264": {
    "src": "The sweater has the quote \"ICY you looking at my fancy duds\" knitted onto the front.",
-   "dst": "毛衣正面织着一句话：「你「冰」没有在偷看我这身漂亮行头吧？」",
+   "dst": "毛衣正面织着一句话: 「你「冰」没有在偷看我这身漂亮行头吧？」",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -3015,7 +3015,7 @@
   },
   "gear-armour#0270": {
    "src": "The sweater has the quote \"I'll never give you the COLD SHOULDER\" knitted onto the front.",
-   "dst": "毛衣正面织着一句话：「我绝不会对你「冷」眼相待」",
+   "dst": "毛衣正面织着一句话: 「我绝不会对你「冷」眼相待」",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -3037,7 +3037,7 @@
   },
   "gear-armour#0272": {
    "src": "Found on the mangled body of a famous Tromsian general fallen to a corrupted siege some time ago, these boots allow the wearer to remain calm and steadfast in the face of overwhelming odds.It's pulling towards something.",
-   "dst": "这双靴子是从一位知名 Troms 将军残破的遗体上找到的——他在不久前的一场腐化围城里阵亡。穿上它的人，面对再悬殊的局势也能保持镇定坚毅。它正被什么东西牵引着。",
+   "dst": "这双靴子是从一位知名 Troms 将军残破的遗体上找到的——他在一段时日以前的一场腐化围城里阵亡。穿上它的人，面对再悬殊的局势也能保持镇定坚毅。它正被什么东西牵引着。",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -3226,7 +3226,7 @@
   },
   "gear-armour#0289": {
    "src": "The sweater has the quote \"Why be merry? CLAUS I said so\" knitted onto the front.",
-   "dst": "毛衣正面织着一句话：「为什么要快乐？因为「老公公」我说了算」",
+   "dst": "毛衣正面织着一句话: 「为什么要快乐？因为「老公公」我说了算」",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -3314,7 +3314,7 @@
   },
   "gear-armour#0297": {
    "src": "Barrages of rain and ice can bite and break; symphonies thunder and wind can deafen and crash. The worst storms, though, the kind that leave no survivors; those creep up quietly, steal in through the moonlit fields, and whisk the world away without a trace.",
-   "dst": "暴雨与冰雹能咬人、能砸碎东西；雷与风的交响能震聋耳朵、能撞垮一切。可最可怕的风暴——那种一个活口都不留的——却是悄悄逼近的：它们潜过月光下的田野，把整个世界卷走，不留一丝痕迹。",
+   "dst": "暴雨与冰雹能咬人、能砸碎东西；雷与风的交响能震聋耳朵、能撞垮一切。可最可怕的风暴——那种一个活口都不留的——却是悄悄逼近的: 它们潜过月光下的田野，把整个世界卷走，不留一丝痕迹。",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -3347,7 +3347,7 @@
   },
   "gear-armour#0300": {
    "src": "The shifting mosaic that graces the winter skies has always struck you as a faint trace of some grand precursor, pure and whole. As you look up at what remains, fragmented beyond the horizon, you can't help but wonder what it would take to break it once more.",
-   "dst": "点缀冬日天空的那幅变幻马赛克，在你看来一直像是某个宏伟前身留下的淡淡痕迹——曾经纯粹而完整。仰望如今剩下的、碎散到地平线之外的那些残片，你忍不住想：要怎样才能再把它打碎一次。",
+   "dst": "点缀冬日天空的那幅变幻马赛克，在你看来一直像是某个宏伟前身留下的淡淡痕迹——曾经纯粹而完整。仰望如今剩下的、碎散到地平线之外的那些残片，你忍不住想: 要怎样才能再把它打碎一次。",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -3447,7 +3447,7 @@
   },
   "gear-armour#0309": {
    "src": "Taken from the Archwraith by a pious Shaman, this chestplate was immediately abandoned. Its few users since have turned to an all-consuming desire to seek out and realign the last vestiges of purity remaining in the {p}.",
-   "dst": "一名虔诚的萨满从大怨灵手中夺来这件胸甲，随即就把它丢弃了。此后为数不多的使用者，都陷入一种吞噬一切的执念：找出 {p} 残存的最后几丝纯净，把它们重新归位。",
+   "dst": "一名虔诚的萨满从大幽魂手中夺来这件胸甲，随即就把它丢弃了。此后为数不多的使用者，都陷入一种吞噬一切的执念: 找出 {p} 残存的最后几丝纯净，把它们重新归位。",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -3594,7 +3594,7 @@
   },
   "gear-armour#0322": {
    "src": "The carving on this archaic piece of armor writes: Ketlednah Icsul",
-   "dst": "这件古老护甲上的刻字写着：Ketlednah Icsul",
+   "dst": "这件古老护甲上的刻字写着: Ketlednah Icsul",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -3616,7 +3616,7 @@
   },
   "gear-armour#0324": {
    "src": "The cost of survival is immense, with morale running thin and supply lines choked, feeding the strength of an army condensed to a single point, of a people desperate not to give an inch.",
-   "dst": "活下去的代价极其庞大：士气日渐稀薄，补给线被掐断，一整支军队的力量被压缩到同一个点上，喂养着一群拼死不肯退让一寸的人。",
+   "dst": "活下去的代价极其庞大: 士气日渐稀薄，补给线被掐断，一整支军队的力量被压缩到同一个点上，喂养着一群拼死不肯退让一寸的人。",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -3649,7 +3649,7 @@
   },
   "gear-armour#0327": {
    "src": "The Expanse holds an exigent paranoia, a hamartia for even the most renowned heroes. Only a survivor knows to hoard intelligence, showing their hand only when none will be left to recount it.",
-   "dst": "广域里弥漫着一股急迫的偏执，连最负盛名的英雄都难逃这个致命缺陷。只有幸存者懂得囤积情报，等到没有人能活着转述时才亮出底牌。",
+   "dst": "Silent Expanse 里弥漫着一股急迫的偏执，连最负盛名的英雄都难逃这个致命缺陷。只有幸存者懂得囤积情报，等到没有人能活着转述时才亮出底牌。",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -3804,7 +3804,7 @@
   },
   "gear-armour#0341": {
    "src": "Crudely misshapen greaves made from haphazard scrap found about the Starfield. You sense a foreboding notion that donning such a thing would be the end of sensing anything at all.",
-   "dst": "这双护胫做得歪七扭八，材料是在星野一带随手捡来的废料。你隐隐有种不祥的预感：穿上这种东西，大概就再也感觉不到任何东西了。",
+   "dst": "这双护胫做得歪七扭八，材料是在星野一带随手捡来的废料。你隐隐有种不祥的预感: 穿上这种东西，大概就再也感觉不到任何东西了。",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -3892,7 +3892,7 @@
   },
   "gear-armour#0349": {
    "src": "The Wanderer; the Betrayer; the Lunatic.",
-   "dst": "漂泊者；背叛者；疯狂者。",
+   "dst": "流浪者；背叛者；疯狂者。",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -4015,7 +4015,7 @@
   },
   "gear-armour#0360": {
    "src": "The sweater has the quote \"SNOW way Craftmas can be bad in this sweater\" knitted onto the front.",
-   "dst": "毛衣正面织着一句话：「穿着这件毛衣，Craftmas「雪」对不可能过得差」",
+   "dst": "毛衣正面织着一句话: 「穿着这件毛衣，Craftmas「雪」对不可能过得差」",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -4049,7 +4049,7 @@
   },
   "gear-armour#0363": {
    "src": "Despite the valley being overtaken by anomalous forces, the toughest flora has managed to avoid extinction. Their coiling vines and roots remind you that even in the most dire of situations, you will never go quietly.",
-   "dst": "这座山谷已被异常力量占据，最坚韧的植物却仍然没有绝迹。那些盘绕的藤与根提醒着你：就算处境再险恶，你也绝不会默默认命。",
+   "dst": "这座山谷已被异常力量占据，最坚韧的植物却仍然没有绝迹。那些盘绕的藤与根提醒着你: 就算处境再险恶，你也绝不会默默认命。",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -4082,7 +4082,7 @@
   },
   "gear-armour#0366": {
    "src": "Complex lenses such as the ones in this plating are specially designed to grant secondary visual guidance, offering rapid peripheral and otherwise situational awareness alongside the wider visual scope. A standard in certainty, always at least providing worst-case countermeasures in the densest fog of war.",
-   "dst": "这层甲片里那种复杂的镜片是专门设计来提供辅助视觉导引的：在放宽视野的同时，快速补上周边与情境的感知。它是「确定性」的标准配备——纵使战场迷雾再浓，至少也保得住最坏情况下的应对手段。",
+   "dst": "这层甲片里那种复杂的镜片是专门设计来提供辅助视觉导引的: 在放宽视野的同时，快速补上周边与情境的感知。它是「确定性」的标准配备——纵使战场迷雾再浓，至少也保得住最坏情况下的应对手段。",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -4093,7 +4093,7 @@
   },
   "gear-armour#0367": {
    "src": "The ultimate folly of a heavyweight war machine. Too big to dodge and too easy to hit, with this core being the conclusion of this conflict. Still undeniably bulky, but just lightweight enough to allow rapid movement through short energy bursts. A luxury to most mechs of this scale.",
-   "dst": "重型战争机械的终极愚行：大到躲不开，又容易被打中，而这颗核心就是这场矛盾的结论。它依旧笨重得无可否认，却刚好轻到能靠短促的能量爆发快速移动——对这种规模的机甲来说，这可是奢侈品。",
+   "dst": "重型战争机械的终极愚行: 大到躲不开，又容易被打中，而这颗核心就是这场矛盾的结论。它依旧笨重得无可否认，却刚好轻到能靠短促的能量爆发快速移动——对这种规模的机甲来说，这可是奢侈品。",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -4115,7 +4115,7 @@
   },
   "gear-armour#0369": {
    "src": "Reinforced leg plating for heavyweight machines. Built to last- and then some. Namely to hold such massive things up readily, but also to keep as pressing of a threat as long as possible- threatening destruction only under critical core damage, rather than being knocked down by a well placed hit.",
-   "dst": "给重型机械用的强化腿甲。做得经久耐用——而且还不止于此。主要是为了稳稳撑起那么庞大的东西，同时让威胁尽可能持久：只有核心严重受损才会崩坏，而不是被一记精准的攻击就打倒。",
+   "dst": "给重型机械用的强化腿甲。做得经久耐用——而且还不止于此。主要是为了稳稳撑起那么庞大的东西，同时让威胁尽可能持久: 只有核心严重受损才会崩坏，而不是被一记精准的攻击就打倒。",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -4126,7 +4126,7 @@
   },
   "gear-armour#0370": {
    "src": "Hidden amongst the foundations of the Expanse are anomalous fragments wrapped in an otherworldly power. While unsettling to the touch, the strength they impart is too tempting to ignore.",
-   "dst": "在广域的地基之间藏着一些异常碎片，裹着来自异界的力量。摸上去令人不安，但它们赋予的力量诱人到无法忽视。",
+   "dst": "在 Silent Expanse 的地基之间藏着一些异常碎片，裹着来自异界的力量。摸上去令人不安，但它们赋予的力量诱人到无法忽视。",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -4148,7 +4148,7 @@
   },
   "gear-armour#0372": {
    "src": "The sweater has the quote \"YELLOW- How's your Craftmas going\" knitted onto the front.",
-   "dst": "毛衣正面织着一句话：「「黄」喽～Craftmas 过得怎么样呀？」",
+   "dst": "毛衣正面织着一句话: 「「黄」喽～Craftmas 过得怎么样呀？」",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -7093,7 +7093,7 @@
   },
   "gear-armour#0699": {
    "src": "Changeling's Chestplate",
-   "dst": "换生灵胸甲",
+   "dst": "易形者胸甲",
    "role": "name",
    "kind": "term",
    "ctx": [
@@ -23186,6 +23186,17 @@
    ],
    "lines": 1,
    "flat": "I         ,        ;                , t      o  '   l   d'       ;              y   ' o   u  ,                t    o   ' ,     .       ;    . s   , t      '     a .    y       ,         ;                                                              a  '     w   ;   ,a      . y"
+  },
+  "gear-armour#2483": {
+   "src": "A soul sacrificed willingly, to an eternity unwound. Imprints and memories; all that remain of a hero of the lands.",
+   "dst": "一个自愿献祭的灵魂，交给了一段被拆解的永恒。烙印与记忆，就是这片土地上一位英雄仅存的一切。",
+   "role": "desc",
+   "kind": "block",
+   "ctx": [
+    "armour/Phantasmal Hostage/lore"
+   ],
+   "lines": 1,
+   "flat": "A soul sacrificed willingly, to an eternity unwound. Imprints and memories; all that remain of a hero of the lands."
   }
  }
 }

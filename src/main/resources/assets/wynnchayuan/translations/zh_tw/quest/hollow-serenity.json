@@ -252,7 +252,7 @@
   },
   "Hollow Serenity#024": {
    "src": "\"The Elephelk And The Skyraider\" - Clifford Stein",
-   "dst": "《Elephelk 與 Skyraider》 - Clifford Stein",
+   "dst": "《Elephelk 與天空劫掠者》 - Clifford Stein",
    "role": "desc",
    "kind": "dialogue",
    "quest": "Hollow Serenity",
@@ -557,7 +557,7 @@
    "kind": "dialogue",
    "quest": "Hollow Serenity",
    "stage": "Stage 4",
-   "speaker": "Ann",
+   "speaker": "Qunit",
    "source": "captured"
   },
   "Hollow Serenity#055": {
@@ -1213,7 +1213,7 @@
    "kind": "dialogue",
    "quest": "Hollow Serenity",
    "stage": "Stage 10",
-   "speaker": "Katarin Faltach",
+   "speaker": "Yorman",
    "source": "captured"
   },
   "Hollow Serenity#120": {
@@ -1223,7 +1223,7 @@
    "kind": "dialogue",
    "quest": "Hollow Serenity",
    "stage": "Stage 10",
-   "speaker": "Katarin Faltach",
+   "speaker": "Yorman",
    "source": "captured"
   },
   "Hollow Serenity#121": {
@@ -1233,7 +1233,7 @@
    "kind": "dialogue",
    "quest": "Hollow Serenity",
    "stage": "Stage 10",
-   "speaker": "Katarin Faltach",
+   "speaker": "Garvan",
    "source": "captured"
   },
   "Hollow Serenity#122": {
@@ -1253,7 +1253,7 @@
    "kind": "dialogue",
    "quest": "Hollow Serenity",
    "stage": "Stage 10",
-   "speaker": "Katarin Faltach",
+   "speaker": "Garvan",
    "source": "captured"
   },
   "Hollow Serenity#124": {
@@ -1263,7 +1263,7 @@
    "kind": "dialogue",
    "quest": "Hollow Serenity",
    "stage": "Stage 10",
-   "speaker": "Katarin Faltach",
+   "speaker": "Garvan",
    "source": "captured"
   },
   "Hollow Serenity#125": {
@@ -1283,7 +1283,7 @@
    "kind": "dialogue",
    "quest": "Hollow Serenity",
    "stage": "Stage 10",
-   "speaker": "Katarin Faltach",
+   "speaker": "Garvan",
    "source": "captured"
   },
   "Hollow Serenity#127": {
@@ -1373,7 +1373,7 @@
    "kind": "dialogue",
    "quest": "Hollow Serenity",
    "stage": "Stage 13",
-   "speaker": "Strange Parasite",
+   "speaker": "Garvan",
    "source": "captured"
   },
   "Hollow Serenity#136": {
@@ -1383,7 +1383,7 @@
    "kind": "dialogue",
    "quest": "Hollow Serenity",
    "stage": "Stage 13",
-   "speaker": "Strange Parasite",
+   "speaker": "Eileen",
    "source": "captured"
   },
   "Hollow Serenity#137": {
@@ -1393,7 +1393,7 @@
    "kind": "dialogue",
    "quest": "Hollow Serenity",
    "stage": "Stage 13",
-   "speaker": "Katarin",
+   "speaker": "Garvan",
    "source": "captured"
   },
   "Hollow Serenity#138": {
@@ -1403,7 +1403,7 @@
    "kind": "dialogue",
    "quest": "Hollow Serenity",
    "stage": "Stage 13",
-   "speaker": "Katarin",
+   "speaker": "Garvan",
    "source": "captured"
   },
   "Hollow Serenity#139": {
@@ -1423,7 +1423,7 @@
    "kind": "dialogue",
    "quest": "Hollow Serenity",
    "stage": "Stage 13",
-   "speaker": "Garvan",
+   "speaker": "Mysterious Leader",
    "source": "captured"
   },
   "Hollow Serenity#141": {
@@ -1483,7 +1483,7 @@
    "kind": "dialogue",
    "quest": "Hollow Serenity",
    "stage": "Stage 14",
-   "speaker": "Garvan",
+   "speaker": "Mysterious Leader",
    "source": "captured"
   },
   "Hollow Serenity#147": {
@@ -1493,7 +1493,7 @@
    "kind": "dialogue",
    "quest": "Hollow Serenity",
    "stage": "Stage 14",
-   "speaker": "Katarin",
+   "speaker": "Eileen",
    "source": "captured"
   },
   "Hollow Serenity#148": {
@@ -1503,7 +1503,7 @@
    "kind": "dialogue",
    "quest": "Hollow Serenity",
    "stage": "Stage 14",
-   "speaker": "Eileen",
+   "speaker": "Katarin",
    "source": "captured"
   },
   "Hollow Serenity#149": {
@@ -1513,7 +1513,7 @@
    "kind": "dialogue",
    "quest": "Hollow Serenity",
    "stage": "Stage 14",
-   "speaker": "Eileen",
+   "speaker": "Katarin",
    "source": "captured"
   },
   "Hollow Serenity#150": {
@@ -1523,7 +1523,7 @@
    "kind": "dialogue",
    "quest": "Hollow Serenity",
    "stage": "Stage 14",
-   "speaker": "Katarin",
+   "speaker": "Servant",
    "source": "captured"
   },
   "Hollow Serenity#151": {
@@ -1553,7 +1553,7 @@
    "kind": "dialogue",
    "quest": "Hollow Serenity",
    "stage": "Stage 14",
-   "speaker": "Eileen",
+   "speaker": "Katarin",
    "source": "captured"
   },
   "Hollow Serenity#154": {
@@ -1608,7 +1608,7 @@
   },
   "Hollow Serenity#159": {
    "src": "I became... nothing. A nobody. I had no purpose. I wandered the forest, pretending that nothing had ever gone wrong... Indeed, I had become a Wanderer.",
-   "dst": "我變成了……什麼都不是。一個無名之輩。我沒有目的。我在森林裡遊蕩，假裝一切都沒有出錯過……的確，我成了一個流浪者。",
+   "dst": "我變成了……什麼都不是。一個無名之輩。我沒有目的。我在森林裡遊蕩，假裝一切都沒有出錯過……的確，我成了「流浪者」。",
    "role": "desc",
    "kind": "dialogue",
    "quest": "Hollow Serenity",
@@ -3148,7 +3148,7 @@
   },
   "Hollow Serenity#313": {
    "src": "She was always convinced though... that if the rightful rulers of Gavel returned, all of these issues could easily be squashed.",
-   "dst": "不過她一直深信……只要 Gavel 真正的統治者回來，這些問題都能輕易解決。",
+   "dst": "不過她一直深信……只要 Gavel 正統的統治者回來，這些問題都能輕易解決。",
    "role": "desc",
    "kind": "dialogue",
    "quest": "Hollow Serenity",
@@ -3168,7 +3168,7 @@
   },
   "Hollow Serenity#315": {
    "src": "I may not be the most religious villager around here, but it would feel more right to be ruled by someone who has the heavens' approval.",
-   "dst": "我在這一帶算不上最虔誠的村民，不過被一位得到天堂認可的人統治，感覺確實比較對。",
+   "dst": "我在這一帶算不上最虔誠的村民，不過被一位受上天認可的人統治，感覺確實比較對。",
    "role": "desc",
    "kind": "dialogue",
    "quest": "Hollow Serenity",
@@ -3448,7 +3448,7 @@
   },
   "Hollow Serenity#343": {
    "src": "Yes, it has stayed hidden. As long as it's kept intact, our souls will stay bound to it. You just need to take care of your little project and we'll ride into the sunset, just like you said, mhm?",
-   "dst": "是的，它一直藏得好好的。只要它保持完整，我們的靈魂就會一直繫在它上面。你只要把你那個小計畫照顧好，我們就能一起走進夕陽裡，就像你說的那樣，嗯？",
+   "dst": "是的，它一直藏得好好的。只要它保持完整，我們的靈魂就會一直綁在它上面。你只要把你那個小計畫照顧好，我們就能一起走進夕陽裡，就像你說的那樣，嗯？",
    "role": "desc",
    "kind": "dialogue",
    "quest": "Hollow Serenity",

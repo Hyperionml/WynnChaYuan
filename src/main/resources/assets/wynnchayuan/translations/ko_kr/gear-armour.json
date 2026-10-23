@@ -3,8 +3,8 @@
   "domain": "gear-armour",
   "lang": "ko_kr",
   "generated": "2026-08-19T12:14:19+00:00",
-  "count": 2483,
-  "translated": 2411,
+  "count": 2484,
+  "translated": 2414,
   "note": "只需填 dst。src 內的材質包圖示與數字已在抽取階段排除。"
  },
  "entries": {
@@ -831,7 +831,7 @@
   },
   "gear-armour#0073": {
    "src": "The shirt has the quote \"I went to the {p} in {p} and all I got was this lousy T-shirt\" printed on it.",
-   "dst": "셔츠에 \"{p}의 {p}에 다녀왔는데 남은 건 이 후줄근한 티셔츠뿐\"이라는 문구가 인쇄되어 있다.",
+   "dst": "셔츠에 \"{p}({p})에 다녀왔는데 남은 건 이 후줄근한 티셔츠뿐\"이라는 문구가 인쇄되어 있다.",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -1187,7 +1187,7 @@
   },
   "gear-armour#0105": {
    "src": "\"We're trying to dig up history, not horrors! What is wrong with this province?!\"  -Excavator Vade, WynnExcavation Site A Director",
-   "dst": "\"우린 역사를 캐려는 거지 공포를 캐려는 게 아니라고! 이 지방은 대체 뭐가 문제야?!\"  -발굴꾼 Vade, WynnExcavation A 현장 책임자",
+   "dst": "\"우린 역사를 캐려는 거지 공포를 캐려는 게 아니라고! 이 지방은 대체 뭐가 문제야?!\"  -발굴꾼 Vade, WynnExcavation A 발굴지 책임자",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -1760,7 +1760,7 @@
   },
   "gear-armour#0157": {
    "src": "\"With the corruption seemingly tied to the emeralds dug by the Roots, people thought gold was the next best thing, the idiots.\" -Gerald, Retired Miner",
-   "dst": "\"Roots가 캐낸 에메랄드가 타락이랑 엮인 것 같으니까, 사람들이 금이 차선책이라고 생각했지. 멍청이들.\" -Gerald, 은퇴한 광부",
+   "dst": "\"Roots에서 캐낸 에메랄드가 타락이랑 엮인 것 같으니까, 사람들이 금이 차선책이라고 생각했지. 멍청이들.\" -Gerald, 은퇴한 광부",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -2716,7 +2716,7 @@
   },
   "gear-armour#0243": {
    "src": "There is nothing in these walls that will remain hidden forever. Nothing unaccounted for by the gleaming light of The Citadel.",
-   "dst": "이 벽 안에서 영원히 숨겨질 수 있는 것은 없다. The Citadel의 반짝이는 빛 아래 헤아려지지 않는 것은 아무것도 없다.",
+   "dst": "이 벽 안에서 영원히 숨겨질 수 있는 것은 없다. Citadel의 반짝이는 빛 아래 헤아려지지 않는 것은 아무것도 없다.",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -3037,7 +3037,7 @@
   },
   "gear-armour#0272": {
    "src": "Found on the mangled body of a famous Tromsian general fallen to a corrupted siege some time ago, these boots allow the wearer to remain calm and steadfast in the face of overwhelming odds.It's pulling towards something.",
-   "dst": "얼마 전 타락한 무리의 포위 공격에 쓰러진 유명한 Troms 장군의 짓이겨진 시신에서 발견된 이 장화는, 압도적인 열세 앞에서도 착용자가 침착하고 굳건하게 버틸 수 있게 해 준다.무언가를 향해 끌려가고 있다.",
+   "dst": "예전에 타락한 무리의 포위 공격에 쓰러진 유명한 Troms 장군의 짓이겨진 시신에서 발견된 이 장화는, 압도적인 열세 앞에서도 착용자가 침착하고 굳건하게 버틸 수 있게 해 준다.무언가를 향해 끌려가고 있다.",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -3447,7 +3447,7 @@
   },
   "gear-armour#0309": {
    "src": "Taken from the Archwraith by a pious Shaman, this chestplate was immediately abandoned. Its few users since have turned to an all-consuming desire to seek out and realign the last vestiges of purity remaining in the {p}.",
-   "dst": "경건한 샤먼이 Archwraith에게서 빼앗은 이 흉갑은 곧바로 버려졌다. 그 뒤로 이것을 입은 몇 안 되는 이들은 {p}에 남은 순수함의 마지막 흔적을 찾아 바로잡으려는, 모든 것을 삼키는 욕망에 사로잡혔다.",
+   "dst": "경건한 샤먼이 대망령에게서 빼앗은 이 흉갑은 곧바로 버려졌다. 그 뒤로 이것을 입은 몇 안 되는 이들은 {p}에 남은 순수함의 마지막 흔적을 찾아 바로잡으려는, 모든 것을 삼키는 욕망에 사로잡혔다.",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -7093,7 +7093,7 @@
   },
   "gear-armour#0699": {
    "src": "Changeling's Chestplate",
-   "dst": "체인질링의 흉갑",
+   "dst": "변신자의 흉갑",
    "role": "name",
    "kind": "term",
    "ctx": [
@@ -23098,7 +23098,7 @@
   },
   "gear-armour#2474": {
    "src": "The universe loves you. It loves you so much that its heart bleeds for you, into your hands and leaking between your fingers. You can't hold onto it; can't say back the words that mean so much to you, for there is nobody there to hear them.",
-   "dst": "",
+   "dst": "우주는 너를 사랑한다. 너무나 사랑해서 너를 위해 심장에서 피를 흘리고, 그 피는 네 손에 고여 손가락 사이로 새어 나간다. 너는 그것을 붙잡을 수 없다. 너에게 그토록 소중한 말을 돌려줄 수도 없다. 그 말을 들어 줄 이가 거기에 아무도 없으니까.",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -23109,7 +23109,7 @@
   },
   "gear-armour#2475": {
    "src": "\"What's yours is mine, and what's mine is yours, so emptying those bloated coffers is of little loss to you, no?\"",
-   "dst": "",
+   "dst": "\"네 것은 내 것이고, 내 것은 네 것이니, 그 불룩한 금고를 비운다 해도 너한텐 별 손해도 아니잖아, 안 그래?\"",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -23186,6 +23186,17 @@
    ],
    "lines": 1,
    "flat": "I         ,        ;                , t      o  '   l   d'       ;              y   ' o   u  ,                t    o   ' ,     .       ;    . s   , t      '     a .    y       ,         ;                                                              a  '     w   ;   ,a      . y"
+  },
+  "gear-armour#2483": {
+   "src": "A soul sacrificed willingly, to an eternity unwound. Imprints and memories; all that remain of a hero of the lands.",
+   "dst": "기꺼이 바쳐져 풀려 버린 영원에 맡겨진 영혼. 흔적과 기억. 이 땅의 한 영웅에게 남은 전부다.",
+   "role": "desc",
+   "kind": "block",
+   "ctx": [
+    "armour/Phantasmal Hostage/lore"
+   ],
+   "lines": 1,
+   "flat": "A soul sacrificed willingly, to an eternity unwound. Imprints and memories; all that remain of a hero of the lands."
   }
  }
 }

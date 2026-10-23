@@ -2,7 +2,7 @@
  "_meta": {
   "quest": "Dwarves and Doguns Part III",
   "count": 87,
-  "translated": 86,
+  "translated": 87,
   "note": "一個任務一個檔。改完跑 tools/quest-bundle.py。",
   "review": {
    "translator": "claude",
@@ -462,7 +462,7 @@
   },
   "Dwarves and Doguns Part III#047": {
    "src": "Infunde hoc monile, alta intra monte. Magia!",
-   "dst": "",
+   "dst": "Infunde hoc monile, alta intra monte. Magia!",
    "role": "desc",
    "kind": "dialogue",
    "quest": "Dwarves and Doguns Part III",
@@ -562,7 +562,7 @@
   },
   "Dwarves and Doguns Part III#057": {
    "src": "If you bring me [{~} True Ice] I can make a staff capable of harnessing it...and we can freeze Garahath in its tracks.",
-   "dst": "Bana [{~} True Ice] getirirsen onun gücünü kullanabilecek bir asa yapabilirim... ve Garahath'ı olduğu yerde dondurabiliriz.",
+   "dst": "Bana [{~} True Ice] getirirsen onun gücünü kullanabilecek bir asa yapabilirim... ve Garaheth'i olduğu yerde dondurabiliriz.",
    "role": "desc",
    "kind": "dialogue",
    "quest": "Dwarves and Doguns Part III",

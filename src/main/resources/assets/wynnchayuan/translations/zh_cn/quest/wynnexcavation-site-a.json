@@ -178,7 +178,7 @@
   },
   "WynnExcavation Site A#017": {
    "src": "..and there you are!",
-   "dst": "..好了，给你！",
+   "dst": "……好了，给你！",
    "role": "desc",
    "kind": "dialogue",
    "quest": "WynnExcavation Site A",
@@ -318,7 +318,7 @@
   },
   "WynnExcavation Site A#031": {
    "src": "YOU'D BETTER NOT HAVE TAKEN ANYTHING! THAT IS OFFICIAL WYNNEXCAVATION PROPERTY!",
-   "dst": "你最好什么都没拿！那是 WYNNEXCAVATION 的正式财产！",
+   "dst": "你最好什么都没拿！那是 WynnExcavation 的正式财产！",
    "role": "desc",
    "kind": "dialogue",
    "quest": "WynnExcavation Site A",

@@ -78,7 +78,7 @@
   },
   "Redbeard's Booty#007": {
    "src": "Ah, ahoy matey! Are ye here to get a glimpse of ol' Redbeard's sunken galleon as well?",
-   "dst": "啊，嗨呀，夥計！你也是來瞧瞧老 Redbeard 那艘沉船的嗎？",
+   "dst": "啊，嗨呀，夥計！你也是來瞧瞧老 Redbeard 那艘沉沒的大帆船的嗎？",
    "role": "desc",
    "kind": "dialogue",
    "quest": "Redbeard's Booty",
@@ -408,7 +408,7 @@
   },
   "Redbeard's Booty#040": {
    "src": "Speakin' of, what'n the name o' Davy Jones' Locket happened out there?!",
-   "dst": "說到這個，外頭到底發生了什麼鬼事？！",
+   "dst": "說到這個，看在 Davy Jones 的墜盒份上，外頭到底發生了什麼鬼事？！",
    "role": "desc",
    "kind": "dialogue",
    "quest": "Redbeard's Booty",

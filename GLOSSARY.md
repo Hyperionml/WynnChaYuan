@@ -205,7 +205,7 @@ Wynncraft 中的攻擊詞條事實上是種組合式的詞條。
 | Wars Won | 公會戰勝場數 | 個人資料上的統計行 |
 | Territory | 領地 | 公會戰爭奪的單位。既有語料已用此譯法 |
 | Decay | 黯蝕 | 指 Gavel 那場災厄。一般語意的腐朽／枯萎（`Decaying Heart`、`fallen into decay`）與機制上的層數衰減（`Distortion decays`）不適用 |
-| Corruption | 腐敗 | 劇情裡的那個勢力。`Corrupted`／`the corrupt`（怪物）＝腐敗生物、腐敗者；`Corrupter of Worlds`＝世界腐敗者。不寫「腐化」（使用者 2026-10-19 定案） |
+| Corruption | 腐敗 | 劇情裡的那個勢力。`Corrupted`／`the corrupt`（怪物）＝腐敗生物、腐敗者，不寫「腐敗物」（使用者 2026-10-24 定案）；`Corrupter of Worlds`＝世界腐敗者。不寫「腐化」（使用者 2026-10-19 定案） |
 | Wanderer | 流浪者 | 不寫「漫遊者」「浪人」（使用者 2026-10-19 定案） |
 | Vagabond | 浪者 | 跟 Wanderer 分開：浪者之甲、浪者之恥法器、迷途的浪者（使用者 2026-10-19 定案） |
 | Rotting（素材） | 腐爛的 | 腐爛的繃帶、腐爛的骨；不用「腐敗」，那是 Corruption（使用者 2026-10-19 定案） |
@@ -213,9 +213,13 @@ Wynncraft 中的攻擊詞條事實上是種組合式的詞條。
 | Corkian | Corkian | 原文是 Corkian 就寫 Corkian，前後接中文空一格。原文是 `Corkus's`／`of Corkus` 才寫「Corkus 的」（地名所有格）（使用者 2026-10-19 定案） |
 | Dwarf / Dwarves / Dwarven | 矮人 | `Dwarven X` 照語感寫「矮人 X」或「矮人的 X」。任務名 `Dwarves and Doguns`＝矮人與 Doguns（使用者 2026-10-19 定案） |
 | Despermech | Despermech | 保留原文（介面與世界事件名都是原文） |
+| The Order of the Grook | Grook 魔法學院 | 任務名與台詞裡的組織名都用「學院」（「Grook 魔法學院」，句中可簡稱「學院」），不寫「Grook 修會」（使用者 2026-10-22 定案） |
 |  |  |
 
 **代名詞**：指生物（怪物、野獸、動物、亡魂、Dogun、綠皮族等）一律用「他／他們」，不用「牠」「它」。指物品、機器（機兵、魔像、機器人）、抽象事物的「它」不動（使用者 2026-10-19 定案）。
+例外：有明確性別的角色照原文（例：Ozoth＝她，原文是 she；原文只寫 it 的句子也跟著用「她」）（使用者 2026-10-22 定案）。
+神祇（Orphion 等）用「祂」，含原文大寫的 He／Him／His；Lari、Dullahan 等不是神的角色照一般規則（使用者 2026-10-23 定案）。
+Gikyo 照原文：別人稱 they 的寫「他們」，Gikyo 自稱 it 的寫「它」（使用者 2026-10-23 定案）。
 
 **任務對話裡的素材名**：方括號裡的素材、原料名（`[{~} Carp Meat]` 之類）保留原文，跟多數一致（使用者 2026-10-19 定案）。
 
@@ -248,8 +252,9 @@ Wynncraft 中的攻擊詞條事實上是種組合式的詞條。
 | the Driver | （未定，暫留原文） | 檔案裡「由 the Driver 帶往本地」。像職稱又像代號，**待討論** |
 | the Canopy | 樹冠 | Fruma 的另一支反抗組織，住在巨樹上，內部以梟／鴿互稱。與 `Leaves in the Wind` 同一種命名法。章節名 `Amongst the Canopy`＝樹冠之間，不寫「林冠」 **(待討論)** |
 | Steel Feather | 鋼羽 | Quill 那一支。 **(待討論)** |
-| Steel Feather Ticket | Steel Feather 車票 | 物品名稱照車站名（The Steel Feather 是地名，留原文） |
-| changeling | 換形者 | 語料裡本來就這樣譯，補進表裡 |
+| Steel Feather Ticket | Steel Feather 票券 | 物品名稱照車站名（The Steel Feather 是地名，留原文）；是地下站的配給票券，不是車票（使用者 10-23） |
+| changeling | 換形者 | 語料裡本來就這樣譯，補進表裡。簡中是「易形者」（見 GLOSSARY.zh-cn.md） |
+| Ranger（Mistwoods 的頭銜） | 巡林官 | Gikyo 的頭銜（Ranger of the Mistwoods）；`the Ranger {p}`＝「{p} 巡林官」。取代「遊俠」。怪物名牌 `{p} Ranger`／`Ranger` 也是「{p} 巡林官」／「巡林官」（使用者 2026-10-23 定案）；其他帶前綴的 Ranger（盜匪遊俠、冰霜遊俠等）不是這個頭銜，不適用（使用者 2026-10-22 定案） |
 | talisman | 護符 | 語料裡本來就這樣譯，補進表裡 |
 | Gravity's Monolith | 重力方尖碑 | Deraj 監獄的別稱，敘述裡當普通名詞用，不是地名 **(待討論)** |
 | Warden | 典獄長 | Deraj 監獄的 Oru。與 boss 稱號 `Warden of Wisdom`（智慧的看守者）分開 **(待討論)** |

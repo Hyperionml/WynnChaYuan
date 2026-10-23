@@ -928,7 +928,7 @@
   },
   "The Order of the Grook#091": {
    "src": "We knowledged mages and scholars, the Order of the Grook, are pleased to see each of you here. Whether you be a young mind aching with curiosity...",
-   "dst": "我們這些有學識的法師與學者，也就是 Grook 修會，很高興見到你們每一位。無論你是滿懷好奇的年輕學子……",
+   "dst": "我們這些有學識的法師與學者，也就是 Grook 魔法學院，很高興見到你們每一位。無論你是滿懷好奇的年輕學子……",
    "role": "desc",
    "kind": "dialogue",
    "quest": "The Order of the Grook",
@@ -1818,7 +1818,7 @@
   },
   "The Order of the Grook#180": {
    "src": "Alright, fledgeling grooks. Time to hit you all with the info you're really here for!",
-   "dst": "好了，雛 grook 們。是時候把你們真正想知道的東西一股腦告訴你們了！",
+   "dst": "好了，雛 Grook 們。是時候把你們真正想知道的東西一股腦告訴你們了！",
    "role": "desc",
    "kind": "dialogue",
    "quest": "The Order of the Grook",
@@ -2224,7 +2224,7 @@
   },
   "The Order of the Grook#220": {
    "src": "One thing to note about undead corrupteds...they can't be cured. You can weaken them, but that's about it. ...wait...",
-   "dst": "關於不死的腐敗物，有一點要注意……他們無法被治癒。你可以削弱他們，但也就僅止於此。……等等……",
+   "dst": "關於不死的腐敗者，有一點要注意……他們無法被治癒。你可以削弱他們，但也就僅止於此。……等等……",
    "role": "desc",
    "kind": "dialogue",
    "quest": "The Order of the Grook",

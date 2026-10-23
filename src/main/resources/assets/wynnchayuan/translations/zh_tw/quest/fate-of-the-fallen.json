@@ -8,7 +8,7 @@
  "entries": {
   "Fate of the Fallen#000": {
    "src": "Ah, a member of the {p} army. We're trying to learn more of this frozen barrow. We could use your aid.",
-   "dst": "啊，{p} 軍隊的人。我們正想多了解這座冰封的古墳。你的幫忙來得正好。",
+   "dst": "啊，{p} 軍隊的人。我們正想多了解這座冰封的墳塚。你的幫忙來得正好。",
    "role": "desc",
    "kind": "dialogue",
    "quest": "Fate of the Fallen",
@@ -248,7 +248,7 @@
   },
   "Fate of the Fallen#024": {
    "src": "We need to find out why so we can reverse this spell. Presumably, the source of that spell's magic would lie within the barrow... but we don't want to go in empty-handed.",
-   "dst": "我們得查出原因，才能解開這道法術。照理說，法術的魔力源頭應該就在古墳裡……但我們不想空著手進去。",
+   "dst": "我們得查出原因，才能解開這道法術。照理說，法術的魔力源頭應該就在墳塚裡……但我們不想空著手進去。",
    "role": "desc",
    "kind": "dialogue",
    "quest": "Fate of the Fallen",
@@ -528,7 +528,7 @@
   },
   "Fate of the Fallen#052": {
    "src": "Th-Theorick!! There's corrupteds!!",
-   "dst": "Theo、Theorick！！有腐敗物！！",
+   "dst": "Theo、Theorick！！有腐敗者！！",
    "role": "desc",
    "kind": "dialogue",
    "quest": "Fate of the Fallen",
@@ -578,7 +578,7 @@
   },
   "Fate of the Fallen#057": {
    "src": "Every day, more corrupteds, more deaths... There is only one thing for it. I have to tackle it myself. Cut the roots...and kill this hellish weed.",
-   "dst": "每一天，腐敗物更多，死的人也更多……只剩一條路了。我得親自去處理。斬斷根源……除掉這株地獄來的雜草。",
+   "dst": "每一天，腐敗者更多，死的人也更多……只剩一條路了。我得親自去處理。斬斷根源……除掉這株地獄來的雜草。",
    "role": "desc",
    "kind": "dialogue",
    "quest": "Fate of the Fallen",
@@ -658,7 +658,7 @@
   },
   "Fate of the Fallen#065": {
    "src": "When I enter... If I had to make an assumption, corrupteds will swarm the portal after me. Your job? Slay them. I can't have distractions in there.",
-   "dst": "我進去之後……照我推測，腐敗物會跟著湧向那道門。你們的任務？把他們殺光。我不能在裡面分心。",
+   "dst": "我進去之後……照我推測，腐敗者會跟著湧向那道門。你們的任務？把他們殺光。我不能在裡面分心。",
    "role": "desc",
    "kind": "dialogue",
    "quest": "Fate of the Fallen",

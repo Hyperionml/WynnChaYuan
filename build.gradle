@@ -1556,6 +1556,22 @@ tasks.register('runGearOwnNameChecks', JavaExec) {
 }
 tasks.named('check') { dependsOn 'runGearOwnNameChecks' }
 
+tasks.register('runGearNameOnGearChecks', JavaExec) {
+    group = 'verification'
+    description = '裝備名只套在真的裝備上；介面按鈕（任務書本的 Return）名稱留原文'
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.wynnchayuan.render.GearNameOnGearTest'
+}
+tasks.named('check') { dependsOn 'runGearNameOnGearChecks' }
+
+tasks.register('runLootrunCardTitleChecks', JavaExec) {
+    group = 'verification'
+    description = 'Lootrun 試煉卡與使命卡的標題照使命名顯示，不留英文、不變成同名裝備'
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.wynnchayuan.render.LootrunCardTitleTest'
+}
+tasks.named('check') { dependsOn 'runLootrunCardTitleChecks' }
+
 tasks.register('runWynnventoryChecks', JavaExec) {
     group = 'verification'
     description = 'Wynnventory 的價格框與語言鍵翻得出來；按住 Shift、沒裝的人、六個語言的語料'
@@ -1571,6 +1587,14 @@ tasks.register('runWynnventoryBoxChecks', JavaExec) {
     mainClass = 'com.wynnchayuan.render.WynnventoryBoxTest'
 }
 tasks.named('check') { dependsOn 'runWynnventoryBoxChecks' }
+
+tasks.register('runPanelLayoutChecks', JavaExec) {
+    group = 'verification'
+    description = '另開面板跟原文的間距照畫出來的框線算、上下對齊原文實際畫的位置'
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.wynnchayuan.render.PanelLayoutTest'
+}
+tasks.named('check') { dependsOn 'runPanelLayoutChecks' }
 
 tasks.register('runOwnNameChatChecks', JavaExec) {
     group = 'verification'

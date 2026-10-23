@@ -170,7 +170,7 @@ public final class TooltipPanel {
         Place spot;
         if (WynnChaYuan.config().panelAnchor() == CollectorConfig.PanelAnchor.FIXED) {
             spot = new Place(WynnChaYuan.config().fixedX(), WynnChaYuan.config().fixedY(),
-                    0, 0, false);
+                    0, 0, false, 0, 0);
         } else {
             spot = place(mc, lines, tooltip, mouseX, mouseY, screenW, screenH, gap);
         }
@@ -180,11 +180,8 @@ public final class TooltipPanel {
         // Wynnventory 的價格框也放在物品說明旁邊；跟著游標的面板要讓開它。
         // 使用者自己釘住位置的（FIXED）不動——那是他挑的地方。
         if (WynnChaYuan.config().panelAnchor() != CollectorConfig.PanelAnchor.FIXED) {
-            int[] ob = box(mc, tooltip);
-            int originalW = ob[0] + 6;                     // 底色左右各外 3
-            int originalLeft = originalLeftFor(mouseX, screenW, ob[0]);
             x = WynnventoryBox.place(x, y, panelW, panelH,
-                    originalLeft - gap - panelW, originalLeft + originalW + gap, screenW, gap);
+                    spot.leftSide(), spot.rightSide(), screenW, gap);
         }
 
         // 原版那一份被我們沒收了（見 RenderListener#onTooltip）：改在這裡自己畫。
@@ -199,7 +196,12 @@ public final class TooltipPanel {
 
         // 位置我們自己算好了，所以用一個原樣回傳座標的 positioner，
         // 不讓 Minecraft 的預設定位器把面板挪回滑鼠旁邊。
-        graphics.renderTooltip(mc.font, components, x, y, EXACT, null);
+        OriginalTooltipBox.beginOwn();
+        try {
+            graphics.renderTooltip(mc.font, components, x, y, EXACT, null);
+        } finally {
+            OriginalTooltipBox.endOwn();
+        }
         // 記下這一塊在哪，截圖才知道要裁哪裡。名字取自譯文第一行——
         // 那通常就是物品名稱，當檔名剛好。
         String title = lines.isEmpty() ? null : lines.get(0).getString();
@@ -333,6 +335,36 @@ public final class TooltipPanel {
                 }
             }
         }
+        // 名字剛好是一件裝備，但這份說明<b>不是</b>物品——介面上的按鈕。
+        //
+        // 實機回報（使用者 2026-10-22）：任務《Off the Rails》的書本介面，返回箭頭的
+        // 說明是「Return / Click this to return to / the rest of your notes」，名稱那一列
+        // 被翻成戒指 Return 的譯名，「譯名加原文」下還附了「(Return)」。語料裡只有
+        // 那枚戒指用這個原文，查表當然只答得出戒指；分得出來的是<b>這份說明長什麼樣</b>，
+        // 見 #itemShaped。名稱列以外（敘述、聊天、名牌）不歸這裡管。
+        //
+        // 整條鍵另外有條目的不擋：Lootrun 使命卡的「{#}Redemption」在語料裡有自己的
+        // 一條，查到的是使命名，不是那件護腿。
+        if (i == 0 && n > 0 && !abilityPanel) {
+            String row0 = com.wynnchayuan.capture.LineParts.of(styled.get(0)).template();
+            String name = bareName(row0);
+            if (!name.isEmpty() && store.gearNameOnly(name)
+                    && (row0.strip().equals(name) || store.lookupExact(row0) == null)
+                    && !itemShaped(styled)) {
+                out.add(LineTranslator.untranslated(styled.get(0)));
+                spans.add(new int[] {0, 1, 0, 1});
+                // 留原文的名稱不在「同一段翻一半」裡投票，見 nameList 的說明
+                nameList[0] = true;
+                i = 1;
+                if (n > 1 && name.equals(bareName(
+                        com.wynnchayuan.capture.LineParts.of(styled.get(1)).template()))) {
+                    out.add(LineTranslator.untranslated(styled.get(1)));
+                    spans.add(new int[] {1, 2, 1, 2});
+                    nameList[1] = true;
+                    i = 2;
+                }
+            }
+        }
         // 物品名稱最多佔前兩行（第 0 行寬度是 0，看得見的在第 1 行）。
         // 第三行起是敘述，裡面提到的同名裝備不附原文。見
         // TranslationStore#holdAppendedOriginal。
@@ -342,12 +374,19 @@ public final class TooltipPanel {
         // 認得很窄：第 0 行必須是名稱列的外框（圖示夾著名字，見 #nameRowInner），
         // 而且不是技能樹的節點。Lootrun 使命卡的標題是「{#}Redemption」——只有開頭
         // 一個圖示，不是名稱列，所以使命「救贖」不會變成那件護腿的名字。
+        // （新版卡片的標題是裸名，見下面的 lootrunTitle。）
         boolean itemRows = n > 0 && !abilityPanel && TranslationStore.nameRowInner(
                 com.wynnchayuan.capture.LineParts.of(styled.get(0)).template()) != null;
+        // Lootrun 試煉卡／使命卡的標題：新版卡片是裸名（Hubris），只查得到同名的那件
+        // 裝備。標題那一列改問使命名自己的譯名，見 TranslationStore#lootrunTitle。
+        boolean lootrunTitle = n > 0 && isLootrunCard(styled)
+                && com.wynnchayuan.translate.LootrunNames.isName(bareName(
+                        com.wynnchayuan.capture.LineParts.of(styled.get(0)).template()));
         try {
             while (i < n) {
                 TranslationStore.holdAppendedOriginal(i >= 2);
                 TranslationStore.nameLine(itemRows && i < 2);
+                TranslationStore.lootrunTitle(lootrunTitle && i == 0);
                 // Wynntils「物品猜測」一列一列的候選物品名：每一格照名稱的規矩換、
                 // 縮排與逗號原樣留著。先於整段查表——這幾列不是散文。見 GuessListRow。
                 com.wynnchayuan.translate.GuessListRow.Row listRow = abilityPanel ? null
@@ -460,6 +499,7 @@ public final class TooltipPanel {
         } finally {
             TranslationStore.holdAppendedOriginal(false);
             TranslationStore.nameLine(false);
+            TranslationStore.lootrunTitle(false);
         }
         // 行首縮排的續行（技能樹「效果」的第二、三項、傷害的小項）：模板剝掉的行首空白
         // 重建時沒有補回來，起點要照原文、或照譯文第一行的數值欄重新補。見 IndentAlign。
@@ -947,12 +987,28 @@ public final class TooltipPanel {
      * <p>認不出來時退回原本的行為（標題留原文），不會比現在更糟。
      */
     private static boolean isAbilityNode(List<StyledText> styled) {
+        return anyMarkers(styled, PANEL_MARKERS);
+    }
+
+    /** Lootrun 的試煉卡或使命卡。見 {@link TranslationStore#lootrunTitle}。 */
+    private static boolean isLootrunCard(List<StyledText> styled) {
+        return anyMarkers(styled, LOOTRUN_CARD_MARKERS);
+    }
+
+    /** {@link #PANEL_MARKERS} 裡 Lootrun 卡片的那兩組。 */
+    private static final String[][] LOOTRUN_CARD_MARKERS = {
+        {"Objective:", "Reward:"},
+        {"Trial:", "Reward:"},
+    };
+
+    /** 有沒有哪一組行<b>全部</b>出現在這份說明裡。 */
+    private static boolean anyMarkers(List<StyledText> styled, String[][] groups) {
         StringBuilder all = new StringBuilder();
         for (StyledText line : styled) {
             all.append(line.getStringWithoutFormatting()).append('\n');
         }
         String text = all.toString();
-        for (String[] markers : PANEL_MARKERS) {
+        for (String[] markers : groups) {
             boolean every = true;
             for (String marker : markers) {
                 every &= text.contains(marker);
@@ -986,6 +1042,9 @@ public final class TooltipPanel {
         {"Blocked by another ability"},
         {"Click to unlock this ability"},
         {"Objective:", "Reward:"},      // Lootrun 的使命
+        // Lootrun 的試煉（新版卡片，實機 2026-10-22）：「Trial:」「Reward:」兩段。
+        // 沒認出來時，標題 Hubris 被當成「說明不像物品的裝備名」留了英文。
+        {"Trial:", "Reward:"},
         // Lootrun 的賜福選單。Heavensent 同時是使命名、賜福名與裝備名，
         // 使命那組認得出來，賜福選單卻沒被認出，標題就被守門擋成英文。
         {"Dynamic Boon", "Click to choose!"},
@@ -1089,6 +1148,70 @@ public final class TooltipPanel {
         }
         return false;
     }
+
+    /**
+     * 這份說明長得像不像<b>物品</b>的說明。見 {@link #translateLines} 裡「名字剛好是
+     * 一件裝備」那一段。
+     *
+     * <h2>認哪些</h2>
+     * 看說明本身，不問 Wynntils 的物品模型：快取以說明的內容為鑰匙，翻譯時手上沒有
+     * ItemStack；而且別的模組重畫的說明（WynnMod）、Wynntils 自己組的說明都要認得。
+     * 實機的裝備說明（shiny-tooltip、wynnmod-tooltip 診斷檔）三樣至少有一樣：
+     * <ul>
+     *   <li>名稱列的外框：原版的名稱是兩列，第 0 列「{@code {#}名字{#}}」寬度是 0
+     *       （{@link TranslationStore#nameRowInner}）；</li>
+     *   <li>稀有度與類別的橫幅：名稱下面幾列裡，有一列<b>整列都是圖示</b>（三個以上）。
+     *       WynnMod 重畫的、素材、書卷都有；分隔線只有兩個圖示，不算；</li>
+     *   <li>需求與傷害列：「Combat Level」「Class Type」「Combat Lv. Min」「… DPS」，
+     *       以及製作物的「Crafted by」。</li>
+     * </ul>
+     * 介面按鈕三樣都沒有：一列名字，底下幾列說明（「Price Check」「Increase Amount」
+     * 「Character Info」都是這樣）。
+     *
+     * <p>認錯的代價不對稱：把物品當成按鈕，那件裝備的名稱就變回英文；所以三樣
+     * 任一樣有就算物品。
+     */
+    static boolean itemShaped(List<StyledText> styled) {
+        int n = styled.size();
+        if (n == 0) {
+            return false;
+        }
+        if (TranslationStore.nameRowInner(
+                com.wynnchayuan.capture.LineParts.of(styled.get(0)).template()) != null) {
+            return true;
+        }
+        for (int k = 1; k < Math.min(n, BANNER_ROWS + 1); k++) {
+            String t = com.wynnchayuan.capture.LineParts.of(styled.get(k)).template();
+            if (bannerRow(t)) {
+                return true;
+            }
+        }
+        for (StyledText line : styled) {
+            if (line != null && ITEM_ROW.matcher(line.getStringWithoutFormatting()).find()) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    /** 橫幅最晚出現在名稱下面第幾列（原版第 2、3 列，WynnMod 第 1、2 列）。 */
+    private static final int BANNER_ROWS = 4;
+
+    /** 整列只有圖示（三個以上）與空白：稀有度與類別的橫幅。分隔線是兩個圖示。 */
+    static boolean bannerRow(String template) {
+        String icon = com.wynnchayuan.capture.GlyphSplitter.GLYPH_PLACEHOLDER;
+        String rest = template.replace(icon, "");
+        if (!rest.isBlank()) {
+            return false;
+        }
+        int icons = (template.length() - rest.length()) / icon.length();
+        return icons >= 3;
+    }
+
+    /** 只有物品說明才有的列：需求、職業、每秒傷害、製作者。 */
+    private static final java.util.regex.Pattern ITEM_ROW = java.util.regex.Pattern.compile(
+            "Combat Level|Combat Lv\\. Min|Class Type|Class Req|\\d DPS\\b"
+                    + "|(?:^|[^A-Za-z])Crafted by \\S");
 
     public static String bareName(String template) {
         String s = template
@@ -1227,8 +1350,11 @@ public final class TooltipPanel {
      *
      * @param overlaps 夾進畫面之後，譯名面板有沒有壓到原文；有的話原文由我們自己
      *                 畫到面板外側（見 {@link #place}）
+     * @param leftSide  面板放原文左邊時的 x（給 {@link WynnventoryBox} 換邊用）
+     * @param rightSide 面板放原文右邊時的 x
      */
-    record Place(int panelX, int panelY, int originalX, int originalY, boolean overlaps) {}
+    record Place(int panelX, int panelY, int originalX, int originalY, boolean overlaps,
+                 int leftSide, int rightSide) {}
 
     /**
      * 原 tooltip 的左上角。
@@ -1262,26 +1388,59 @@ public final class TooltipPanel {
     static Place place(Minecraft mc, List<Component> lines, List<Component> tooltip,
                        int mouseX, int mouseY, int screenW, int screenH, int gap) {
         int[] panelBox = box(mc, lines);
-        int panelW = panelBox[0] + 8;
-        int panelH = panelBox[1] + 8;
-
         int[] originalBox = box(mc, tooltip);
-        int originalTextW = originalBox[0];
-        int originalTextH = originalBox[1];
-        int originalW = originalTextW + 6;     // 畫出來的底色：左右各外 3
-        int originalH = originalTextH + 6;
-        int originalLeft = originalLeftFor(mouseX, screenW, originalTextW);
+        // 原文真正畫在哪：別的模組（Wynntils 的縮放、Wynnventory 讓位）可能挪過、縮過。
+        // 量不到才照原版公式推算。見 OriginalTooltipBox。
+        OriginalTooltipBox.Box drawn = OriginalTooltipBox.find(originalBox[0], originalBox[1]);
+        return layout(panelBox[0], panelBox[1], originalBox[0], originalBox[1], drawn,
+                mouseX, mouseY, screenW, screenH, gap, WynnChaYuan.config().panelSide());
+    }
 
-        int originalTop = mouseY - 12;
-        if (originalTop + originalTextH + 3 > screenH) {
-            originalTop = screenH - originalTextH - 3;
+    /**
+     * {@link #place} 的幾何部分（不碰遊戲，測試直接呼叫）。
+     *
+     * <h2>間距</h2>
+     * 使用者設的間距（預設 12）是兩個框<b>畫出來的最外圈</b>之間的距離。Wynncraft 的資源包把
+     * tooltip 的框線畫到文字區外 12px（{@link OriginalTooltipBox#FRAME}），原版只看得到 4px；
+     * 先前照 4px 算，兩邊的框線於是疊了一截（使用者 2026-10-24 回報）。
+     *
+     * <h2>上下</h2>
+     * 面板的第一列對齊原文的第一列。原文被 Wynntils 縮放或挪過的時候，照它實際畫的位置。
+     *
+     * @param drawn 原文這一幀實際畫的位置；{@code null} 時照原版的定位公式推算
+     */
+    static Place layout(int panelTextW, int panelTextH, int originalTextW, int originalTextH,
+                        OriginalTooltipBox.Box drawn, int mouseX, int mouseY,
+                        int screenW, int screenH, int gap, CollectorConfig.PanelSide side) {
+        int panelW = panelTextW + 8;
+        int panelH = panelTextH + 8;
+
+        int originalLeft;
+        int originalTop;
+        float scale;
+        if (drawn != null) {
+            originalLeft = Math.round(drawn.x());
+            originalTop = Math.round(drawn.y());
+            scale = drawn.scale();
+        } else {
+            originalLeft = originalLeftFor(mouseX, screenW, originalTextW);
+            originalTop = mouseY - 12;
+            if (originalTop + originalTextH + 3 > screenH) {
+                originalTop = screenH - originalTextH - 3;
+            }
+            scale = 1f;
         }
+        int frame = OriginalTooltipBox.FRAME;
+        int originalFrame = Math.round(frame * scale);
+        int shownW = Math.round(originalTextW * scale);
+        int shownH = Math.round(originalTextH * scale);
 
         boolean originalOnRight = originalLeft >= mouseX;
-        int rightSide = originalLeft + originalW + gap;
-        int leftSide = originalLeft - gap - panelW;
+        // 面板的 x 是它的文字區左緣；兩個框的最外圈之間隔 gap
+        int rightSide = originalLeft + shownW + originalFrame + gap + frame;
+        int leftSide = originalLeft - originalFrame - gap - frame - panelTextW;
 
-        int x = switch (WynnChaYuan.config().panelSide()) {
+        int x = switch (side) {
             case RIGHT -> rightSide;
             case LEFT -> leftSide;
             default -> originalOnRight ? leftSide : rightSide;
@@ -1291,17 +1450,23 @@ public final class TooltipPanel {
         x = Math.max(0, Math.min(x, Math.max(0, screenW - panelW)));
         y = Math.max(0, Math.min(y, Math.max(0, screenH - panelH)));
 
-        boolean overlaps = x < originalLeft + originalW && x + panelW > originalLeft
-                && y < originalTop + originalH && y + panelH > originalTop;
+        // 「壓到」照文字區加原版看得見的 4px 判斷：只是資源包那一圈框線碰到不算——
+        // 那種情況把原文推開、改由我們畫，反而會丟掉它的稀有度框。
+        int textLeft = originalLeft - 4;
+        int textTop = originalTop - 4;
+        boolean overlaps = x < textLeft + shownW + 8 && x + panelW > textLeft
+                && y < textTop + shownH + 8 && y + panelH > textTop;
 
         int originalX = originalLeft;
         int originalY = originalTop;
         if (overlaps) {
             // 推到面板外側；原文比畫面還寬時這一推會直接超出邊界，那是有意的。
-            originalX = originalOnRight ? x + panelW + gap : x - gap - originalW;
+            // 推開之後是我們照原大小畫，所以用沒縮放的寬度。
+            originalX = originalOnRight ? x + panelTextW + frame + gap + frame
+                    : x - frame - gap - frame - originalTextW;
             originalY = y;
         }
-        return new Place(x, y, originalX, originalY, overlaps);
+        return new Place(x, y, originalX, originalY, overlaps, leftSide, rightSide);
     }
 
     /**
@@ -1343,6 +1508,11 @@ public final class TooltipPanel {
                 .map(Component::getVisualOrderText)
                 .map(ClientTooltipComponent::create)
                 .toList();
-        graphics.renderTooltip(mc.font, parts, x, y, EXACT, null);
+        OriginalTooltipBox.beginOwn();
+        try {
+            graphics.renderTooltip(mc.font, parts, x, y, EXACT, null);
+        } finally {
+            OriginalTooltipBox.endOwn();
+        }
     }
 }

@@ -191,7 +191,7 @@
   },
   "gear-accessory#0016": {
    "src": "In the wake of the Decay, the land yearns to return to its old vibrance.",
-   "dst": "腐朽过后，这片土地渴望回到昔日的生机。",
+   "dst": "黯蚀过后，这片土地渴望回到昔日的生机。",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -389,7 +389,7 @@
   },
   "gear-accessory#0034": {
    "src": "This bracelet holds a hastily scrawled diagram and message: tahkuhac ah pichul il nikckrah ceftif, necal cistodes il pahnikcredos. pulits pices il tahkuhac il pahnifkel sef icetlis pruts, hatl nec niftocos. tof il recnal toc rofmedos. nikcred kalkah, its kalahretsed nofmales uc las{#}ec tofsifos.",
-   "dst": "这只手环上有一幅匆匆画就的图和一段消息：tahkuhac ah pichul il nikckrah ceftif, necal cistodes il pahnikcredos. pulits pices il tahkuhac il pahnifkel sef icetlis pruts, hatl nec niftocos. tof il recnal toc rofmedos. nikcred kalkah, its kalahretsed nofmales uc las{#}ec tofsifos.",
+   "dst": "这只手环上有一幅匆匆画就的图和一段消息: tahkuhac ah pichul il nikckrah ceftif, necal cistodes il pahnikcredos. pulits pices il tahkuhac il pahnifkel sef icetlis pruts, hatl nec niftocos. tof il recnal toc rofmedos. nikcred kalkah, its kalahretsed nofmales uc las{#}ec tofsifos.",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -478,7 +478,7 @@
   },
   "gear-accessory#0042": {
    "src": "The mangled body found days too late apparently thought this necklace would let them traverse between geysers into the Upper Heights.",
-   "dst": "那具晚了好几天才被发现的残破尸体，显然以为这条项链能让人在间歇泉之间穿行、直达高处。",
+   "dst": "那具晚了好几天才被发现的残破尸体，显然以为这条项链能让人在间歇泉之间穿行、直达上高地。",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -522,7 +522,7 @@
   },
   "gear-accessory#0046": {
    "src": "Branded on your skin reads: \"No refunds!\"",
-   "dst": "烙在你皮肤上的字写着：「概不退款！」",
+   "dst": "烙在你皮肤上的字写着: 「概不退款！」",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -766,7 +766,7 @@
   },
   "gear-accessory#0068": {
    "src": "Lines of text crisscross an ornate runic design: etlpasad uc kod ah krof cof nifah{#} lasifrah. etlatlruc uc pah cof okcah{#} lasifrah. etlpecoles uc elracits toc nucah{#} lasifrah.",
-   "dst": "一行行文字纵横交错在华丽的符文图样上：etlpasad uc kod ah krof cof nifah{#} lasifrah. etlatlruc uc pah cof okcah{#} lasifrah. etlpecoles uc elracits toc nucah{#} lasifrah.",
+   "dst": "一行行文字纵横交错在华丽的符文图样上: etlpasad uc kod ah krof cof nifah{#} lasifrah. etlatlruc uc pah cof okcah{#} lasifrah. etlpecoles uc elracits toc nucah{#} lasifrah.",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -844,7 +844,7 @@
   },
   "gear-accessory#0075": {
    "src": "The Decay swept away countless species. As those memories die, they are lost forever.",
-   "dst": "腐朽卷走了数不清的物种。那些记忆一旦死去，就永远找不回来了。",
+   "dst": "黯蚀卷走了数不清的物种。那些记忆一旦死去，就永远找不回来了。",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -855,7 +855,7 @@
   },
   "gear-accessory#0076": {
    "src": "A presence of despair watches over the swamp as the Decay spreads.",
-   "dst": "随着腐朽蔓延，一股绝望的存在俯视着这片沼泽。",
+   "dst": "随着黯蚀蔓延，一股绝望的存在俯视着这片沼泽。",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -1143,7 +1143,7 @@
   },
   "gear-accessory#0102": {
    "src": "Originally designed to jumpstart disabled war machines on the battlefield. However, when worn on the neck, it instead delivers high-voltage shocks directly into the jugular whenever any major movement is made.",
-   "dst": "原本是设计来在战场上启动瘫痪战争机械的。可是一旦戴在脖子上，只要动作稍大，它就会把高压电直接送进颈动脉。",
+   "dst": "原本是设计来在战场上启动瘫痪战争机械的。可是一旦戴在脖子上，只要动作稍大，它就会把高压电直接送进颈静脉。",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -1301,7 +1301,7 @@
   },
   "gear-accessory#0116": {
    "src": "A symbol of apology. Of pain, never intended but given carelessly. Of good intentions marred by thoughtlessness and overeager optimism. To give one of these icy pearls away is to give away part of yourself,  and to give hope to those you have hurt that they may find peace.",
-   "dst": "这是道歉的象征：象征无心却因疏忽而造成的痛，象征被轻率与过头的乐观糟蹋掉的善意。送出一颗这样的冰珍珠，就是把自己的一部分送了出去，也是给你伤害过的人一点希望，愿他们能得到安宁。",
+   "dst": "这是道歉的象征: 象征无心却因疏忽而造成的痛，象征被轻率与过头的乐观糟蹋掉的善意。送出一颗这样的冰珍珠，就是把自己的一部分送了出去，也是给你伤害过的人一点希望，愿他们能得到安宁。",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -1323,7 +1323,7 @@
   },
   "gear-accessory#0118": {
    "src": "An old {p} saying is engraved along the metal. \"A single toss of the knucklebones can make or break a gambling man.\"",
-   "dst": "金属上刻着一句 {p} 的老话：「赌徒的成败，往往只在掷一次骰子。」",
+   "dst": "金属上刻着一句 {p} 的老话: 「赌徒的成败，往往只在掷一次骰子。」",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -1446,7 +1446,7 @@
   },
   "gear-accessory#0129": {
    "src": "This rather nondescript band has something etched into the inside, almost too small to make out: nasef kec. nah il kaclof toc profrets adnales recnal nec niftoc. nah il pahisah nikcol ah krof kacetslah cef. ahas nifloc pokc il sofmalis pokces toc cef. tah il cistod uc secnof if {#}ef reftif, nah il kacetslah pahisah sef krahos. tahes il hocel uc sifed if.",
-   "dst": "这只毫不起眼的环，内侧刻着一些字，小得几乎看不清：nasef kec. nah il kaclof toc profrets adnales recnal nec niftoc. nah il pahisah nikcol ah krof kacetslah cef. ahas nifloc pokc il sofmalis pokces toc cef. tah il cistod uc secnof if {#}ef reftif, nah il kacetslah pahisah sef krahos. tahes il hocel uc sifed if.",
+   "dst": "这只毫不起眼的环，内侧刻着一些字，小得几乎看不清: nasef kec. nah il kaclof toc profrets adnales recnal nec niftoc. nah il pahisah nikcol ah krof kacetslah cef. ahas nifloc pokc il sofmalis pokces toc cef. tah il cistod uc secnof if {#}ef reftif, nah il kacetslah pahisah sef krahos. tahes il hocel uc sifed if.",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -1556,7 +1556,7 @@
   },
   "gear-accessory#0139": {
    "src": "Found on the corpse of the oldest shopkeeper of the Gavel province, the engraved text reads 'GREED'.",
-   "dst": "这是在 Gavel 行省最年长的店主尸体上找到的，上头刻着一个词：「贪婪」。",
+   "dst": "这是在 Gavel 行省最年长的店主尸体上找到的，上头刻着一个词: 「贪婪」。",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -1567,7 +1567,7 @@
   },
   "gear-accessory#0140": {
    "src": "Beneath engravings of the Fruman capital, you can make out some text: nikcatl rakc il las uc kractif petstac ah krof cef. etlpices ah tahkuhac il kacetslah pahsecnof, luh nasef il tul kalofmes kacetslah toc nikckrof. tah il necel ledokcrid uc pestalos ac il las{#} uc krahitsahosed, luh etlpasad il nikcpahsofmalos sef pecol uc traspedis, pactef tah il lah toc las uc uskadis.",
-   "dst": "在 Fruma 首都的雕纹底下，你能辨认出一段文字：nikcatl rakc il las uc kractif petstac ah krof cef. etlpices ah tahkuhac il kacetslah pahsecnof, luh nasef il tul kalofmes kacetslah toc nikckrof. tah il necel ledokcrid uc pestalos ac il las{#} uc krahitsahosed, luh etlpasad il nikcpahsofmalos sef pecol uc traspedis, pactef tah il lah toc las uc uskadis.",
+   "dst": "在 Fruma 首都的雕纹底下，你能辨认出一段文字: nikcatl rakc il las uc kractif petstac ah krof cef. etlpices ah tahkuhac il kacetslah pahsecnof, luh nasef il tul kalofmes kacetslah toc nikckrof. tah il necel ledokcrid uc pestalos ac il las{#} uc krahitsahosed, luh etlpasad il nikcpahsofmalos sef pecol uc traspedis, pactef tah il lah toc las uc uskadis.",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -1689,7 +1689,7 @@
   },
   "gear-accessory#0151": {
    "src": "A single insect is simple. Perhaps lost, perhaps helpless. But their purpose is immutable over all. If they are to be summoned, then they are to stand. If they are to be asked the impossible, then they are to strike regardless.",
-   "dst": "单独一只虫子很单纯，也许迷惘，也许无助。但它们的使命凌驾一切、不可更改：召它们来，它们就挺身而立；要它们做不可能的事，它们照样出击。",
+   "dst": "单独一只虫子很单纯，也许迷惘，也许无助。但它们的使命凌驾一切、不可更改: 召它们来，它们就挺身而立；要它们做不可能的事，它们照样出击。",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -2097,7 +2097,7 @@
   },
   "gear-accessory#0188": {
    "src": "Infinitesimal specks of matter wane in and out of view among the darkness of this clasp. Even a glance reminds you of what little exists in the expanses of the Void from which the materials of this were scavenged from.",
-   "dst": "极其微小的物质颗粒在这枚扣环的黑暗里若隐若现。只消看上一眼，你就会想起：制作它的材料，是从虚空那片什么都几乎不存在的辽阔里捡回来的。",
+   "dst": "极其微小的物质颗粒在这枚扣环的黑暗里若隐若现。只消看上一眼，你就会想起: 制作它的材料，是从虚空那片什么都几乎不存在的辽阔里捡回来的。",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -2175,7 +2175,7 @@
   },
   "gear-accessory#0195": {
    "src": "An auxiliary power core of the powerful TERA-{~}M Mining robot line. It controls the robots by giving the bearer a compulsion to break new grounds and progress further without heed.",
-   "dst": "强大的 TERA-{~}M 采矿机器人系列的辅助动力核心。它操控机器人的方式，是让持有者产生一股冲动：不顾一切地开凿新地、不断往前推进。",
+   "dst": "强大的 TERA-{~}M 采矿机器人系列的辅助动力核心。它操控机器人的方式，是让持有者产生一股冲动: 不顾一切地开凿新地、不断往前推进。",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -2286,7 +2286,7 @@
   },
   "gear-accessory#0205": {
    "src": "Her trial was rigged from the start. She deserved no justice for the things they claimed she did. The prison is her world now, the burden on her soul matched now only by the weight of the iron chain around her neck.",
-   "dst": "她的审判从一开始就被做了手脚。对于他们指控她做过的那些事，她本就不该得到任何公道。如今监狱就是她的全世界，压在她灵魂上的重量，只有颈上那条铁链堪可比拟。",
+   "dst": "她的审判从一开始就被做了手脚。为了他们安在她身上的那些罪名，她本不该受这样的“正义”。如今监狱就是她的全世界，压在她灵魂上的重量，只有颈上那条铁链堪可比拟。",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -2342,7 +2342,7 @@
   },
   "gear-accessory#0210": {
    "src": "Your magic pops open the locket, revealing an inscription inside: necel il lokc tahnulpef cef. priftac {#}ilis las uc traspedis ac ickah il necel nedrid uc akcnofmosed. tahrefets il kacetslah pahpestal, luh necel ciltuh il pecetslah nikcpelasred cefos. tah il tof uc nikceladnalah krahos kal, etlsul il pahsofmal tofnikcifrahosed. tah il tof toc kahatsnus.",
-   "dst": "你的魔法弹开了项链盒，露出里头一段铭文：necel il lokc tahnulpef cef. priftac {#}ilis las uc traspedis ac ickah il necel nedrid uc akcnofmosed. tahrefets il kacetslah pahpestal, luh necel ciltuh il pecetslah nikcpelasred cefos. tah il tof uc nikceladnalah krahos kal, etlsul il pahsofmal tofnikcifrahosed. tah il tof toc kahatsnus.",
+   "dst": "你的魔法弹开了项链盒，露出里头一段铭文: necel il lokc tahnulpef cef. priftac {#}ilis las uc traspedis ac ickah il necel nedrid uc akcnofmosed. tahrefets il kacetslah pahpestal, luh necel ciltuh il pecetslah nikcpelasred cefos. tah il tof uc nikceladnalah krahos kal, etlsul il pahsofmal tofnikcifrahosed. tah il tof toc kahatsnus.",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -3035,7 +3035,7 @@
   },
   "gear-accessory#0284": {
    "src": "Ba'al's Betrayal",
-   "dst": "巴力的背叛",
+   "dst": "Ba'al 的背叛",
    "role": "name",
    "kind": "term",
    "ctx": [
@@ -3359,7 +3359,7 @@
   },
   "gear-accessory#0320": {
    "src": "Bovemist Amulet",
-   "dst": "Bovemist 护身符",
+   "dst": "牛神信徒护身符",
    "role": "name",
    "kind": "term",
    "ctx": [
@@ -5258,7 +5258,7 @@
   },
   "gear-accessory#0531": {
    "src": "Faith of the Bovemist",
-   "dst": "Bovemist 信仰之戒",
+   "dst": "牛神信徒的信仰之戒",
    "role": "name",
    "kind": "term",
    "ctx": [
@@ -7311,7 +7311,7 @@
   },
   "gear-accessory#0759": {
    "src": "Nasins' Nadir",
-   "dst": "Nasins 的低谷",
+   "dst": "Nasin 家族的低谷",
    "role": "name",
    "kind": "term",
    "ctx": [
@@ -7860,7 +7860,7 @@
   },
   "gear-accessory#0820": {
    "src": "Prometheus's Vision",
-   "dst": "普罗米修斯的远见",
+   "dst": "Prometheus 的远见",
    "role": "name",
    "kind": "term",
    "ctx": [
@@ -8625,7 +8625,7 @@
   },
   "gear-accessory#0905": {
    "src": "Sayleros' Brother's Misfortune",
-   "dst": "Sayleros 兄弟的不幸",
+   "dst": "Sayleros 那位兄弟的不幸",
    "role": "name",
    "kind": "sentence",
    "ctx": [
@@ -10533,7 +10533,7 @@
   },
   "gear-accessory#1117": {
    "src": "Witherhead's Talisman",
-   "dst": "Witherhead 的护符",
+   "dst": "凋零首的护符",
    "role": "name",
    "kind": "term",
    "ctx": [

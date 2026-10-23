@@ -248,7 +248,7 @@
   },
   "Hollow Serenity#024": {
    "src": "\"The Elephelk And The Skyraider\" - Clifford Stein",
-   "dst": "《Elephelk 与 Skyraider》 - Clifford Stein",
+   "dst": "《Elephelk 与天空劫掠者》 - Clifford Stein",
    "role": "desc",
    "kind": "dialogue",
    "quest": "Hollow Serenity",
@@ -553,7 +553,7 @@
    "kind": "dialogue",
    "quest": "Hollow Serenity",
    "stage": "Stage 4",
-   "speaker": "Ann",
+   "speaker": "Qunit",
    "source": "captured"
   },
   "Hollow Serenity#055": {
@@ -1209,7 +1209,7 @@
    "kind": "dialogue",
    "quest": "Hollow Serenity",
    "stage": "Stage 10",
-   "speaker": "Katarin Faltach",
+   "speaker": "Yorman",
    "source": "captured"
   },
   "Hollow Serenity#120": {
@@ -1219,7 +1219,7 @@
    "kind": "dialogue",
    "quest": "Hollow Serenity",
    "stage": "Stage 10",
-   "speaker": "Katarin Faltach",
+   "speaker": "Yorman",
    "source": "captured"
   },
   "Hollow Serenity#121": {
@@ -1229,7 +1229,7 @@
    "kind": "dialogue",
    "quest": "Hollow Serenity",
    "stage": "Stage 10",
-   "speaker": "Katarin Faltach",
+   "speaker": "Garvan",
    "source": "captured"
   },
   "Hollow Serenity#122": {
@@ -1249,7 +1249,7 @@
    "kind": "dialogue",
    "quest": "Hollow Serenity",
    "stage": "Stage 10",
-   "speaker": "Katarin Faltach",
+   "speaker": "Garvan",
    "source": "captured"
   },
   "Hollow Serenity#124": {
@@ -1259,7 +1259,7 @@
    "kind": "dialogue",
    "quest": "Hollow Serenity",
    "stage": "Stage 10",
-   "speaker": "Katarin Faltach",
+   "speaker": "Garvan",
    "source": "captured"
   },
   "Hollow Serenity#125": {
@@ -1279,7 +1279,7 @@
    "kind": "dialogue",
    "quest": "Hollow Serenity",
    "stage": "Stage 10",
-   "speaker": "Katarin Faltach",
+   "speaker": "Garvan",
    "source": "captured"
   },
   "Hollow Serenity#127": {
@@ -1369,7 +1369,7 @@
    "kind": "dialogue",
    "quest": "Hollow Serenity",
    "stage": "Stage 13",
-   "speaker": "Strange Parasite",
+   "speaker": "Garvan",
    "source": "captured"
   },
   "Hollow Serenity#136": {
@@ -1379,7 +1379,7 @@
    "kind": "dialogue",
    "quest": "Hollow Serenity",
    "stage": "Stage 13",
-   "speaker": "Strange Parasite",
+   "speaker": "Eileen",
    "source": "captured"
   },
   "Hollow Serenity#137": {
@@ -1389,7 +1389,7 @@
    "kind": "dialogue",
    "quest": "Hollow Serenity",
    "stage": "Stage 13",
-   "speaker": "Katarin",
+   "speaker": "Garvan",
    "source": "captured"
   },
   "Hollow Serenity#138": {
@@ -1399,7 +1399,7 @@
    "kind": "dialogue",
    "quest": "Hollow Serenity",
    "stage": "Stage 13",
-   "speaker": "Katarin",
+   "speaker": "Garvan",
    "source": "captured"
   },
   "Hollow Serenity#139": {
@@ -1419,12 +1419,12 @@
    "kind": "dialogue",
    "quest": "Hollow Serenity",
    "stage": "Stage 13",
-   "speaker": "Garvan",
+   "speaker": "Mysterious Leader",
    "source": "captured"
   },
   "Hollow Serenity#141": {
    "src": "Now then... You will tell us where the rightful heir to the Gavellian throne is... No matter the cost.",
-   "dst": "那么……你会告诉我们王位的正统继承人在哪里……不惜任何代价。",
+   "dst": "那么……你会告诉我们 Gavel 王位的正统继承人在哪里……不惜任何代价。",
    "role": "desc",
    "kind": "dialogue",
    "quest": "Hollow Serenity",
@@ -1479,7 +1479,7 @@
    "kind": "dialogue",
    "quest": "Hollow Serenity",
    "stage": "Stage 14",
-   "speaker": "Garvan",
+   "speaker": "Mysterious Leader",
    "source": "captured"
   },
   "Hollow Serenity#147": {
@@ -1489,7 +1489,7 @@
    "kind": "dialogue",
    "quest": "Hollow Serenity",
    "stage": "Stage 14",
-   "speaker": "Katarin",
+   "speaker": "Eileen",
    "source": "captured"
   },
   "Hollow Serenity#148": {
@@ -1499,7 +1499,7 @@
    "kind": "dialogue",
    "quest": "Hollow Serenity",
    "stage": "Stage 14",
-   "speaker": "Eileen",
+   "speaker": "Katarin",
    "source": "captured"
   },
   "Hollow Serenity#149": {
@@ -1509,7 +1509,7 @@
    "kind": "dialogue",
    "quest": "Hollow Serenity",
    "stage": "Stage 14",
-   "speaker": "Eileen",
+   "speaker": "Katarin",
    "source": "captured"
   },
   "Hollow Serenity#150": {
@@ -1519,7 +1519,7 @@
    "kind": "dialogue",
    "quest": "Hollow Serenity",
    "stage": "Stage 14",
-   "speaker": "Katarin",
+   "speaker": "Servant",
    "source": "captured"
   },
   "Hollow Serenity#151": {
@@ -1549,7 +1549,7 @@
    "kind": "dialogue",
    "quest": "Hollow Serenity",
    "stage": "Stage 14",
-   "speaker": "Eileen",
+   "speaker": "Katarin",
    "source": "captured"
   },
   "Hollow Serenity#154": {
@@ -1604,7 +1604,7 @@
   },
   "Hollow Serenity#159": {
    "src": "I became... nothing. A nobody. I had no purpose. I wandered the forest, pretending that nothing had ever gone wrong... Indeed, I had become a Wanderer.",
-   "dst": "我变成了……什么都不是。一个无名之辈。我没有目的。我在森林里游荡，假装一切都没有出错过……的确，我成了一个漂泊者。",
+   "dst": "我变成了……什么都不是。一个无名之辈。我没有目的。我在森林里游荡，假装一切都没有出错过……的确，我成了「流浪者」。",
    "role": "desc",
    "kind": "dialogue",
    "quest": "Hollow Serenity",
@@ -2424,7 +2424,7 @@
   },
   "Hollow Serenity#241": {
    "src": "But the thing is, she's causing... the Decay... dun dun DUUUN!!! Uhh... I don't know, her house is decaying, or something.",
-   "dst": "但问题是，她正在引发……衰败……噔噔噔——！！！呃……我也不知道，她的房子在腐朽还是什么的。",
+   "dst": "但问题是，她正在引发……黯蚀……噔噔噔——！！！呃……我也不知道，她的房子在腐朽还是什么的。",
    "role": "desc",
    "kind": "dialogue",
    "quest": "Hollow Serenity",
@@ -3144,7 +3144,7 @@
   },
   "Hollow Serenity#313": {
    "src": "She was always convinced though... that if the rightful rulers of Gavel returned, all of these issues could easily be squashed.",
-   "dst": "不过她一直深信……只要 Gavel 真正的统治者回来，这些问题都能轻易解决。",
+   "dst": "不过她一直深信……只要 Gavel 正统的统治者回来，这些问题都能轻易解决。",
    "role": "desc",
    "kind": "dialogue",
    "quest": "Hollow Serenity",
@@ -3444,7 +3444,7 @@
   },
   "Hollow Serenity#343": {
    "src": "Yes, it has stayed hidden. As long as it's kept intact, our souls will stay bound to it. You just need to take care of your little project and we'll ride into the sunset, just like you said, mhm?",
-   "dst": "安全，一直藏得好好的。只要它完好无损，我们的灵魂就会一直与它相系。你只需要搞定你那个小项目，我们就能一起远走高飞，就像你说的，嗯？",
+   "dst": "安全，一直藏得好好的。只要它完好无损，我们的灵魂就会一直绑在它上面。你只需要搞定你那个小项目，我们就能一起远走高飞，就像你说的，嗯？",
    "role": "desc",
    "kind": "dialogue",
    "quest": "Hollow Serenity",

@@ -544,7 +544,7 @@
   },
   "The Breaking Point#053": {
    "src": "This thing is ancient, and we don't know how it works. The best we can do is try and keep it from reaching its breaking point, and prevent the canyon from meeting the same fate as the {p}.",
-   "dst": "这东西非常古老，我们也不知道它是怎么运作的。我们最多只能设法不让它到达临界点，别让峡谷落得跟 {p} 一样的下场。",
+   "dst": "这东西非常古老，我们也不知道它是怎么运作的。我们最多只能设法不让它到达崩溃边缘，别让峡谷落得跟 {p} 一样的下场。",
    "role": "desc",
    "kind": "dialogue",
    "quest": "The Breaking Point",
@@ -1934,7 +1934,7 @@
   },
   "The Breaking Point#192": {
    "src": "Who put them here?",
-   "dst": "是谁把它们放在这里的？",
+   "dst": "是谁把他们关在这里的？",
    "role": "desc",
    "kind": "dialogue",
    "quest": "The Breaking Point",
@@ -2004,7 +2004,7 @@
   },
   "The Breaking Point#199": {
    "src": "It was formed by an Ice Drake's Breath partway through the war- and, well, as you can see, it has remained here ever since.",
-   "dst": "它是在战争中途由冰飞龙的吐息造成的——然后，嗯，你也看到了，从那之后就一直留在这里。",
+   "dst": "它是在战争中途由冰亚龙的吐息造成的——然后，嗯，你也看到了，从那之后就一直留在这里。",
    "role": "desc",
    "kind": "dialogue",
    "quest": "The Breaking Point",
@@ -2034,7 +2034,7 @@
   },
   "The Breaking Point#202": {
    "src": "If an Ice Drake formed this",
-   "dst": "如果这是冰龙造成的",
+   "dst": "如果这是冰亚龙造成的",
    "role": "desc",
    "kind": "dialogue",
    "quest": "The Breaking Point",
@@ -2184,7 +2184,7 @@
   },
   "The Breaking Point#217": {
    "src": "Like the Ice Drake that created this vault, and encased the Elders in the truest of ice.",
-   "dst": "就像造出这座地窖、把长老们封进最纯粹的冰里的那条冰飞龙。",
+   "dst": "就像造出这座地窖、把长老们封进最纯粹的冰里的那条冰亚龙。",
    "role": "desc",
    "kind": "dialogue",
    "quest": "The Breaking Point",
@@ -2914,7 +2914,7 @@
   },
   "The Breaking Point#290": {
    "src": "Human. We will pull the Protector... away from the brink. That is all we can do now. All the power... we can muster.",
-   "dst": "人类。我们会把守护者……从边缘拉回来。这就是我们现在能做的全部。我们……能凝聚的……所有力量。",
+   "dst": "人类。我们会把守护者……从崩溃边缘拉回来。这就是我们现在能做的全部。我们……能凝聚的……所有力量。",
    "role": "desc",
    "kind": "dialogue",
    "quest": "The Breaking Point",
@@ -3149,7 +3149,7 @@
    "kind": "dialogue",
    "quest": "The Breaking Point",
    "stage": "Stage 8",
-   "speaker": "Rhay",
+   "speaker": "Ineos",
    "source": "captured"
   },
   "The Breaking Point#314": {
@@ -3159,7 +3159,7 @@
    "kind": "dialogue",
    "quest": "The Breaking Point",
    "stage": "Stage 8",
-   "speaker": "Rhay",
+   "speaker": "Ineos",
    "source": "captured"
   },
   "The Breaking Point#315": {
@@ -3169,7 +3169,7 @@
    "kind": "dialogue",
    "quest": "The Breaking Point",
    "stage": "Stage 8",
-   "speaker": "Rhay",
+   "speaker": "Ineos",
    "source": "captured"
   },
   "The Breaking Point#316": {

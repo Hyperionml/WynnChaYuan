@@ -48,7 +48,7 @@
   },
   "Canyon Condor#004": {
    "src": "I am one of the Keepers in the great {p}. There we hoard secrets about the world.",
-   "dst": "我是伟大的 {p} 的守护者之一。我们在那里收藏着关于这个世界的秘密。",
+   "dst": "我是伟大的 {p} 的守秘人之一。我们在那里收藏着关于这个世界的秘密。",
    "role": "desc",
    "kind": "dialogue",
    "quest": "Canyon Condor",
@@ -188,7 +188,7 @@
   },
   "Canyon Condor#018": {
    "src": "As it turns out, I did me back in trying to transport me earnin's from that there cave, left them right at the back did' I.",
-   "dst": "说来也巧，俺想把俺挣的东西从那边洞里运出来，结果闪了腰，就把东西留在最里面了。",
+   "dst": "说来也巧，俺想把俺挖到的金子从那边洞里运出来，结果闪了腰，就把东西留在最里面了。",
    "role": "desc",
    "kind": "dialogue",
    "quest": "Canyon Condor",

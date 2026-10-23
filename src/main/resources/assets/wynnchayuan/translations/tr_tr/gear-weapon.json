@@ -468,7 +468,7 @@
   },
   "gear-weapon#0040": {
    "src": "Blood. Carnage. Death. Destruction. This is all Annihilation knows. A fury written into its very core, a violent rage building from an endless War. If it were to have its way, all of Wynn would fall to chaos.",
-   "dst": "Kan. Katliam. Ölüm. Yıkım. Annihilation'ın bildiği tek şey bu. Özüne kazınmış bir öfke, bitmeyen bir Savaş'tan beslenen şiddetli bir hiddet. Elinde olsa bütün Wynn kaosa düşerdi.",
+   "dst": "Kan. Katliam. Ölüm. Yıkım. Yok Oluş'un bildiği tek şey bu. Özüne kazınmış bir öfke, bitmeyen bir Savaş'tan beslenen şiddetli bir hiddet. Elinde olsa bütün Wynn kaosa düşerdi.",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -1242,7 +1242,7 @@
   },
   "gear-weapon#0109": {
    "src": "The confusion of sentience creates unknown and marvelous threads and soundscapes. Joy, grief, hate, love, shock, calm, they reflect back into the pattern and song of the universe. The glow of the Weave, and this brilliant, breathtaking, pale imitation of it, too, resounds in the chorus of existence-one extra layer.",
-   "dst": "Bilincin karmaşası bilinmedik ve harika iplikler, ses manzaraları yaratır. Neşe, keder, nefret, sevgi, şok, huzur; hepsi evrenin desenine ve şarkısına geri yansır. Weave'in ışıltısı ve onun bu parlak, nefes kesici, soluk taklidi de varoluşun korosunda yankılanır; fazladan bir katman.",
+   "dst": "Bilincin karmaşası bilinmedik ve harika iplikler, ses manzaraları yaratır. Neşe, keder, nefret, sevgi, şok, huzur; hepsi evrenin desenine ve şarkısına geri yansır. Dokuma'nın ışıltısı ve onun bu parlak, nefes kesici, soluk taklidi de varoluşun korosunda yankılanır; fazladan bir katman.",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -15012,7 +15012,7 @@
   },
   "gear-weapon#1570": {
    "src": "Light of The Wings",
-   "dst": "Kanatların Işığı",
+   "dst": "Wings'in Işığı",
    "role": "name",
    "kind": "term",
    "ctx": [

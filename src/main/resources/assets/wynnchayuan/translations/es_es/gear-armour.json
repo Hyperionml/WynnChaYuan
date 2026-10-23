@@ -3,8 +3,8 @@
   "domain": "gear-armour",
   "lang": "es_es",
   "generated": "2026-08-19T12:14:19+00:00",
-  "count": 2483,
-  "translated": 2406,
+  "count": 2484,
+  "translated": 2409,
   "note": "只需填 dst。src 內的材質包圖示與數字已在抽取階段排除。"
  },
  "entries": {
@@ -1760,7 +1760,7 @@
   },
   "gear-armour#0157": {
    "src": "\"With the corruption seemingly tied to the emeralds dug by the Roots, people thought gold was the next best thing, the idiots.\" -Gerald, Retired Miner",
-   "dst": "\"Como la corrupción parecía ligada a las esmeraldas que excavaban las Raíces, la gente pensó que el oro era lo mejor después, los muy idiotas.\" -Gerald, minero retirado",
+   "dst": "\"Como la corrupción parecía ligada a las esmeraldas que se excavaban junto a las Raíces, la gente pensó que el oro era lo mejor después, los muy idiotas.\" -Gerald, minero retirado",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -3447,7 +3447,7 @@
   },
   "gear-armour#0309": {
    "src": "Taken from the Archwraith by a pious Shaman, this chestplate was immediately abandoned. Its few users since have turned to an all-consuming desire to seek out and realign the last vestiges of purity remaining in the {p}.",
-   "dst": "Arrebatada al Archwraith por un chamán devoto, esta coraza fue abandonada de inmediato. Sus escasos usuarios desde entonces han caído en un deseo devorador de buscar y realinear los últimos vestigios de pureza que quedan en {p}.",
+   "dst": "Arrebatada al Archiespectro por un chamán devoto, esta coraza fue abandonada de inmediato. Sus escasos usuarios desde entonces han caído en un deseo devorador de buscar y realinear los últimos vestigios de pureza que quedan en {p}.",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -3892,7 +3892,7 @@
   },
   "gear-armour#0349": {
    "src": "The Wanderer; the Betrayer; the Lunatic.",
-   "dst": "La Errante; la Traidora; la Lunática.",
+   "dst": "El Errante; el Traidor; el Lunático.",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -4126,7 +4126,7 @@
   },
   "gear-armour#0370": {
    "src": "Hidden amongst the foundations of the Expanse are anomalous fragments wrapped in an otherworldly power. While unsettling to the touch, the strength they impart is too tempting to ignore.",
-   "dst": "Ocultos entre los cimientos de el Expanse hay fragmentos anómalos envueltos en un poder de otro mundo. Aunque su tacto inquieta, la fuerza que otorgan es demasiado tentadora para ignorarla.",
+   "dst": "Ocultos entre los cimientos del Expanse hay fragmentos anómalos envueltos en un poder de otro mundo. Aunque su tacto inquieta, la fuerza que otorgan es demasiado tentadora para ignorarla.",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -7093,7 +7093,7 @@
   },
   "gear-armour#0699": {
    "src": "Changeling's Chestplate",
-   "dst": "Pechera del niño cambiado",
+   "dst": "Pechera del cambiaformas",
    "role": "name",
    "kind": "term",
    "ctx": [
@@ -23098,7 +23098,7 @@
   },
   "gear-armour#2474": {
    "src": "The universe loves you. It loves you so much that its heart bleeds for you, into your hands and leaking between your fingers. You can't hold onto it; can't say back the words that mean so much to you, for there is nobody there to hear them.",
-   "dst": "",
+   "dst": "El universo te ama. Te ama tanto que su corazón sangra por ti, en tus manos, y se escurre entre tus dedos. No puedes retenerlo; no puedes devolverle las palabras que tanto significan para ti, porque no hay nadie allí para oírlas.",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -23109,7 +23109,7 @@
   },
   "gear-armour#2475": {
    "src": "\"What's yours is mine, and what's mine is yours, so emptying those bloated coffers is of little loss to you, no?\"",
-   "dst": "",
+   "dst": "\"Lo tuyo es mío y lo mío es tuyo, así que vaciar esas arcas rebosantes no es gran pérdida para ti, ¿no?\"",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -23186,6 +23186,17 @@
    ],
    "lines": 1,
    "flat": "I         ,        ;                , t      o  '   l   d'       ;              y   ' o   u  ,                t    o   ' ,     .       ;    . s   , t      '     a .    y       ,         ;                                                              a  '     w   ;   ,a      . y"
+  },
+  "gear-armour#2483": {
+   "src": "A soul sacrificed willingly, to an eternity unwound. Imprints and memories; all that remain of a hero of the lands.",
+   "dst": "Un alma sacrificada por voluntad propia a una eternidad deshilvanada. Huellas y recuerdos; todo lo que queda de un héroe de estas tierras.",
+   "role": "desc",
+   "kind": "block",
+   "ctx": [
+    "armour/Phantasmal Hostage/lore"
+   ],
+   "lines": 1,
+   "flat": "A soul sacrificed willingly, to an eternity unwound. Imprints and memories; all that remain of a hero of the lands."
   }
  }
 }

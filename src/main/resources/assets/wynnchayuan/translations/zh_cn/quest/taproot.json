@@ -8,7 +8,7 @@
  "entries": {
   "Taproot#007": {
    "src": "New Quest Started: Realm of Light II - Taproot",
-   "dst": "新任务开始: Realm of Light II - Taproot",
+   "dst": "新任务开始: 光之领域 II - 直捣主根",
    "role": "desc",
    "kind": "dialogue",
    "quest": "Taproot",
@@ -24,7 +24,7 @@
   },
   "Taproot#008": {
    "src": "I have to follow the trail! I...I have to know what he's telling me!",
-   "dst": "我必须顺着这条线索走！我……我必须知道他想告诉我什么！",
+   "dst": "我必须顺着这条线索走！我……我必须知道祂想告诉我什么！",
    "role": "desc",
    "kind": "dialogue",
    "quest": "Taproot",
@@ -50,7 +50,7 @@
   },
   "Taproot#010": {
    "src": "To end this \"Mayor's\" life... To snuff out one whose heart aches is painful.",
-   "dst": "终结这位镇长的性命……熄灭一颗正在痛苦的心，是令人心痛的。",
+   "dst": "终结这位“镇长”的性命……熄灭一颗正在痛苦的心，是令人心痛的。",
    "role": "desc",
    "kind": "dialogue",
    "quest": "Taproot",
@@ -146,7 +146,7 @@
   },
   "Taproot#019": {
    "src": "I have...important things to do. This accursed Decay...I have to end it. This all needs to stop.",
-   "dst": "我有……重要的事要做。这该死的衰败……我必须终结它。这一切都得停下来。",
+   "dst": "我有……重要的事要做。这该死的黯蚀……我必须终结它。这一切都得停下来。",
    "role": "desc",
    "kind": "dialogue",
    "quest": "Taproot",
@@ -206,7 +206,7 @@
   },
   "Taproot#025": {
    "src": "It is...the most obvious stain of the decay, and very intense...if I can scrub this out, the rest should follow.",
-   "dst": "那是……衰败最明显的污迹，而且非常严重……如果我能把这里清除掉，其他地方应该也会跟着好转。",
+   "dst": "那是……黯蚀最明显的污迹，而且非常严重……如果我能把这里清除掉，其他地方应该也会跟着好转。",
    "role": "desc",
    "kind": "dialogue",
    "quest": "Taproot",
@@ -276,7 +276,7 @@
   },
   "Taproot#032": {
    "src": "The road, look! He's contacting me! A-are you finally giving me the answers I've asked for?",
-   "dst": "那条路，看！他在联系我！你、你终于要给我我一直在求的答案了吗？",
+   "dst": "那条路，看！祂在联系我！你、你终于要给我我一直在求的答案了吗？",
    "role": "desc",
    "kind": "dialogue",
    "quest": "Taproot",
@@ -306,7 +306,7 @@
   },
   "Taproot#035": {
    "src": "...I followed you seeking answers...and here, I am presented with more questions. Why did he bring us here?",
-   "dst": "……我跟着你来寻求答案……结果在这里，我得到的却是更多问题。他为什么带我们来这里？",
+   "dst": "……我跟着你来寻求答案……结果在这里，我得到的却是更多问题。祂为什么带我们来这里？",
    "role": "desc",
    "kind": "dialogue",
    "quest": "Taproot",
@@ -326,7 +326,7 @@
   },
   "Taproot#037": {
    "src": "I don't...is he trying to remind me of what's at stake? Did he want to show y- No, that's...he wouldn't know you...but then, what IS this about?!",
-   "dst": "我不……他是想提醒我事关重大吗？他是想给你看——不，那……他不会认识你的……可是，这到底是怎么回事？！",
+   "dst": "我不……祂是想提醒我事关重大吗？祂是想给你看——不，那……祂不会认识你的……可是，这到底是怎么回事？！",
    "role": "desc",
    "kind": "dialogue",
    "quest": "Taproot",
@@ -536,7 +536,7 @@
   },
   "Taproot#059": {
    "src": "You may leave. The rays of fate will see to destiny unfolding.",
-   "dst": "你可以离开。命运之光会看着天命展开。",
+   "dst": "你可以离开。命运之光自会让天命展开。",
    "role": "desc",
    "kind": "dialogue",
    "quest": "Taproot",
@@ -546,7 +546,7 @@
   },
   "Taproot#060": {
    "src": "You may end this \"Mayor's\" life. Blood upon your hands in many ways.",
-   "dst": "你可以终结这位镇长的性命。你的手将以多种方式沾上鲜血。",
+   "dst": "你可以终结这位“镇长”的性命。你的手将以多种方式沾上鲜血。",
    "role": "desc",
    "kind": "dialogue",
    "quest": "Taproot",
@@ -676,7 +676,7 @@
   },
   "Taproot#074": {
    "src": "Wait...y-you...had a choice? He gave you the choice too?! A-Already?!",
-   "dst": "等等……你、你……有选择？他也给了你选择？！已、已经给了？！",
+   "dst": "等等……你、你……有选择？祂也给了你选择？！已、已经给了？！",
    "role": "desc",
    "kind": "dialogue",
    "quest": "Taproot",
@@ -906,7 +906,7 @@
   },
   "Taproot#097": {
    "src": "Witness the beginning of decay.",
-   "dst": "见证衰败的开端。",
+   "dst": "见证黯蚀的开端。",
    "role": "desc",
    "kind": "dialogue",
    "quest": "Taproot",
@@ -1006,7 +1006,7 @@
   },
   "Taproot#107": {
    "src": "His light... This power... I can do this!",
-   "dst": "他的光……这股力量……我做得到的！",
+   "dst": "祂的光……这股力量……我做得到的！",
    "role": "desc",
    "kind": "dialogue",
    "quest": "Taproot",

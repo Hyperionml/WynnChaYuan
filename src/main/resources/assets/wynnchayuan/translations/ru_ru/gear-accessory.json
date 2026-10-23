@@ -478,7 +478,7 @@
   },
   "gear-accessory#0042": {
    "src": "The mangled body found days too late apparently thought this necklace would let them traverse between geysers into the Upper Heights.",
-   "dst": "Хозяин изувеченного тела, найденного на несколько дней позже, чем следовало, похоже, верил, что это ожерелье позволит ему перебраться по гейзерам в Верхние высоты.",
+   "dst": "Хозяин изувеченного тела, найденного на несколько дней позже, чем следовало, похоже, верил, что это ожерелье позволит ему перебраться по гейзерам в Upper Heights.",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -3035,7 +3035,7 @@
   },
   "gear-accessory#0284": {
    "src": "Ba'al's Betrayal",
-   "dst": "Предательство Ваала",
+   "dst": "Предательство Ba'al",
    "role": "name",
    "kind": "term",
    "ctx": [
@@ -7311,7 +7311,7 @@
   },
   "gear-accessory#0759": {
    "src": "Nasins' Nadir",
-   "dst": "Надир Nasins",
+   "dst": "Надир рода Nasin",
    "role": "name",
    "kind": "term",
    "ctx": [
@@ -7860,7 +7860,7 @@
   },
   "gear-accessory#0820": {
    "src": "Prometheus's Vision",
-   "dst": "Предвидение Прометея",
+   "dst": "Предвидение Prometheus",
    "role": "name",
    "kind": "term",
    "ctx": [
@@ -10533,7 +10533,7 @@
   },
   "gear-accessory#1117": {
    "src": "Witherhead's Talisman",
-   "dst": "Талисман Witherhead",
+   "dst": "Талисман иссохшеголова",
    "role": "name",
    "kind": "term",
    "ctx": [

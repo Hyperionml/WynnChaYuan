@@ -147,7 +147,7 @@
   },
   "gear-accessory#0012": {
    "src": "\"The lightest light will never defeat the darkest dark. Only those who understand both can survive.\"",
-   "dst": "「最淡的光永遠贏不了最濃的暗。只有同時懂得這兩者的人才活得下來。」",
+   "dst": "「最亮的光永遠贏不了最濃的暗。只有同時懂得這兩者的人才活得下來。」",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -478,7 +478,7 @@
   },
   "gear-accessory#0042": {
    "src": "The mangled body found days too late apparently thought this necklace would let them traverse between geysers into the Upper Heights.",
-   "dst": "那具遲了好幾天才被發現的殘破屍體，顯然以為這條項鍊能讓他在間歇泉之間穿越到高地去。",
+   "dst": "那具遲了好幾天才被發現的殘破屍體，顯然以為這條項鍊能讓他在間歇泉之間穿越到 Upper Heights 去。",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -866,7 +866,7 @@
   },
   "gear-accessory#0077": {
    "src": "\"After the Nivla forest fire, I'm glad the corrupteds haven't thought to try and burn the {p} Suburbs.\" -Sergeant Klafson, {p} Legion",
-   "dst": "「經過 Nivla 那場森林大火之後，我很慶幸那些腐敗物還沒想到要去燒 {p} 郊區。」——Klafson 中士，{p} 軍團",
+   "dst": "「經過 Nivla 那場森林大火之後，我很慶幸那些腐敗者還沒想到要去燒 {p} 郊區。」——Klafson 中士，{p} 軍團",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -1254,7 +1254,7 @@
   },
   "gear-accessory#0112": {
    "src": "A gift from Her Majesty to The Iron Commander in recognition of his accomplishments. If only he knew what it represented...",
-   "dst": "陛下為表彰鋼鐵指揮官的功績而賜下的禮物。要是他知道它代表著什麼就好了……",
+   "dst": "陛下為表彰「鐵血指揮官」的功績而賜下的禮物。要是他知道它代表著什麼就好了……",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -1290,7 +1290,7 @@
   },
   "gear-accessory#0115": {
    "src": "The cloth wraps produced by the canyon Dojo are just that, merely soft cloth. It is left to the users to apply them skillfully in battle, in whatever way they see fit.",
-   "dst": "峽谷武館所生產的布纏就只是布纏，不過是柔軟的布罷了。至於在戰鬥中怎麼用得高明，就看使用者自己了。",
+   "dst": "峽谷道場所生產的布纏就只是布纏，不過是柔軟的布罷了。至於在戰鬥中怎麼用得高明，就看使用者自己了。",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -1323,7 +1323,7 @@
   },
   "gear-accessory#0118": {
    "src": "An old {p} saying is engraved along the metal. \"A single toss of the knucklebones can make or break a gambling man.\"",
-   "dst": "金屬上刻著一句 {p} 的老話：「賭徒的成敗，就在骰子這一擲之間。」",
+   "dst": "金屬上刻著一句 {p} 的老話: 「賭徒的成敗，就在骰子這一擲之間。」",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -1556,7 +1556,7 @@
   },
   "gear-accessory#0139": {
    "src": "Found on the corpse of the oldest shopkeeper of the Gavel province, the engraved text reads 'GREED'.",
-   "dst": "在 Gavel 行省最年長的店主屍體上尋獲，上面刻著一個詞：「貪婪」。",
+   "dst": "在 Gavel 行省最年長的店主屍體上尋獲，上面刻著一個詞: 「貪婪」。",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -2097,7 +2097,7 @@
   },
   "gear-accessory#0188": {
    "src": "Infinitesimal specks of matter wane in and out of view among the darkness of this clasp. Even a glance reminds you of what little exists in the expanses of the Void from which the materials of this were scavenged from.",
-   "dst": "在這只扣環的黑暗之中，無限微小的物質斑點時隱時現。光是瞥一眼，就會提醒你：在那片被撿拾出這些材料的虛空浩瀚裡，存在的東西是多麼稀少。",
+   "dst": "在這只扣環的黑暗之中，無限微小的物質斑點時隱時現。光是瞥一眼，就會提醒你: 在那片被撿拾出這些材料的虛空浩瀚裡，存在的東西是多麼稀少。",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -2108,7 +2108,7 @@
   },
   "gear-accessory#0189": {
    "src": "\"Crawly things. They crawl on the mushrooms. Mushrooms shouldn't be crawly!\" -Yahya, Mushroom Man",
-   "dst": "「爬來爬去的東西。他們在蘑菇上爬。蘑菇不該是會爬的！」—Yahya，蘑菇人",
+   "dst": "「爬來爬去的東西。他們在蘑菇上爬。蘑菇不該是會爬的！」——Yahya，蘑菇人",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -2286,7 +2286,7 @@
   },
   "gear-accessory#0205": {
    "src": "Her trial was rigged from the start. She deserved no justice for the things they claimed she did. The prison is her world now, the burden on her soul matched now only by the weight of the iron chain around her neck.",
-   "dst": "她的審判從一開始就是安排好的。對於他們指控她做過的那些事，她本不該得到任何正義。如今監獄就是她的世界，而壓在她靈魂上的重擔，只有頸間那條鐵鏈的重量堪可比擬。",
+   "dst": "她的審判從一開始就是安排好的。為了他們加在她身上的那些罪名，她本不該受這樣的「正義」。如今監獄就是她的世界，而壓在她靈魂上的重擔，只有頸間那條鐵鏈的重量堪可比擬。",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -2386,7 +2386,7 @@
   },
   "gear-accessory#0214": {
    "src": "\"They say the eyes are the windows to the soul. That's ridiculous, ocular fluids are primarily opaque.\" -Ragon, Elemental Researcher",
-   "dst": "「人家說眼睛是靈魂之窗。荒謬，眼球液基本上是不透明的。」—Ragon，元素研究員",
+   "dst": "「人家說眼睛是靈魂之窗。荒謬，眼球液基本上是不透明的。」——Ragon，元素研究員",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -2430,7 +2430,7 @@
   },
   "gear-accessory#0218": {
    "src": "\"My dear boy should never have to go through the horrors of losing a mother like that.\" -Momo, adoptive mother of Bob",
-   "dst": "「我親愛的孩子絕不該經歷那樣失去母親的恐怖。」—Momo，Bob 的養母",
+   "dst": "「我親愛的孩子絕不該經歷那樣失去母親的恐怖。」——Momo，Bob 的養母",
    "role": "desc",
    "kind": "block",
    "ctx": [
@@ -3035,7 +3035,7 @@
   },
   "gear-accessory#0284": {
    "src": "Ba'al's Betrayal",
-   "dst": "巴力的背叛",
+   "dst": "Ba'al 的背叛",
    "role": "name",
    "kind": "term",
    "ctx": [
@@ -3359,7 +3359,7 @@
   },
   "gear-accessory#0320": {
    "src": "Bovemist Amulet",
-   "dst": "Bovemist 護身符",
+   "dst": "牛神信徒護身符",
    "role": "name",
    "kind": "term",
    "ctx": [
@@ -5258,7 +5258,7 @@
   },
   "gear-accessory#0531": {
    "src": "Faith of the Bovemist",
-   "dst": "Bovemist 的信仰之戒",
+   "dst": "牛神信徒的信仰之戒",
    "role": "name",
    "kind": "term",
    "ctx": [
@@ -7311,7 +7311,7 @@
   },
   "gear-accessory#0759": {
    "src": "Nasins' Nadir",
-   "dst": "Nasins 的谷底",
+   "dst": "Nasin 家的谷底",
    "role": "name",
    "kind": "term",
    "ctx": [
@@ -7860,7 +7860,7 @@
   },
   "gear-accessory#0820": {
    "src": "Prometheus's Vision",
-   "dst": "普羅米修斯的遠見",
+   "dst": "Prometheus 的遠見",
    "role": "name",
    "kind": "term",
    "ctx": [
@@ -8625,7 +8625,7 @@
   },
   "gear-accessory#0905": {
    "src": "Sayleros' Brother's Misfortune",
-   "dst": "Sayleros 兄弟的不幸",
+   "dst": "Sayleros 那位兄弟的不幸",
    "role": "name",
    "kind": "sentence",
    "ctx": [
@@ -10533,7 +10533,7 @@
   },
   "gear-accessory#1117": {
    "src": "Witherhead's Talisman",
-   "dst": "Witherhead 的護符",
+   "dst": "凋零首的護符",
    "role": "name",
    "kind": "term",
    "ctx": [
